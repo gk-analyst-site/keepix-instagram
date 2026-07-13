@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">SITUATION 01 / THE BREAKAWAY</text><text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">When to stop, not whether to come.</text>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/><rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+  <!-- goal at bottom centre -->
+  <rect x="440" y="1050" width="200" height="30" rx="4" fill="none" stroke="#F5F5F0" stroke-width="4" opacity="0.7"/>
+  <text x="540" y="1100" font-family="sans-serif" font-weight="800" font-size="20" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">GOAL</text>
+
+  <!-- GK starting position (near goal) -->
+  <circle cx="540" cy="950" r="36" fill="#FFD700" stroke="#0f3d2e" stroke-width="4"/>
+  <text x="540" y="890" font-family="sans-serif" font-weight="800" font-size="20" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">GK</text>
+
+  <!-- striker at top, bearing down -->
+  <circle cx="580" cy="380" r="32" fill="#F5F5F0" stroke="#0f3d2e" stroke-width="3"/>
+  <text x="580" y="330" font-family="sans-serif" font-weight="800" font-size="20" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">STRIKER</text>
+
+  <!-- striker run arrow (downward) -->
+  <line x1="580" y1="415" x2="570" y2="820" stroke="#F5F5F0" stroke-width="4" stroke-dasharray="10,8" marker-end="url(#arr-white)"/>
+
+  <!-- GK closing arrow -->
+  <line x1="540" y1="910" x2="560" y2="710" stroke="#FFD700" stroke-width="6" marker-end="url(#arr-gk)"/>
+
+  <!-- decision zone marker -->
+  <rect x="420" y="650" width="240" height="80" rx="10" fill="none" stroke="#2ECC71" stroke-width="3" stroke-dasharray="10,8"/>
+  <text x="540" y="780" font-family="sans-serif" font-weight="800" font-size="22" fill="#2ECC71" text-anchor="middle" letter-spacing="3">DECISION ZONE — STOP HERE</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/><text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Drill the closing line. Not the save.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

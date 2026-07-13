@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">CUE 02 / THE SHOULDER</text>
+    <text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">Closed = near. Open = far.</text>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/>
+    <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+  <!-- closed shoulder (left) -->
+  <g transform="translate(310, 630)">
+    <ellipse cx="0" cy="0" rx="100" ry="30" fill="#F5F5F0"/>
+    <circle cx="0" cy="-55" r="35" fill="#F5F5F0"/>
+    <!-- arrow indicating near-post direction -->
+    <line x1="-80" y1="30" x2="-160" y2="140" stroke="#2ECC71" stroke-width="5" marker-end="url(#arr-accent)"/>
+    <text x="0" y="120" font-family="sans-serif" font-weight="800" font-size="24" fill="#F5F5F0" text-anchor="middle" letter-spacing="3">CLOSED</text>
+    <text x="0" y="152" font-family="sans-serif" font-weight="800" font-size="22" fill="#2ECC71" text-anchor="middle" letter-spacing="2">near post</text>
+  </g>
+
+  <!-- open shoulder (right) -->
+  <g transform="translate(770, 630)">
+    <ellipse cx="0" cy="0" rx="100" ry="30" fill="#F5F5F0" transform="rotate(25)"/>
+    <circle cx="0" cy="-55" r="35" fill="#F5F5F0"/>
+    <!-- arrow indicating far-post direction -->
+    <line x1="80" y1="50" x2="180" y2="150" stroke="#2ECC71" stroke-width="5" marker-end="url(#arr-accent)"/>
+    <text x="0" y="120" font-family="sans-serif" font-weight="800" font-size="24" fill="#F5F5F0" text-anchor="middle" letter-spacing="3">OPEN</text>
+    <text x="0" y="152" font-family="sans-serif" font-weight="800" font-size="22" fill="#2ECC71" text-anchor="middle" letter-spacing="2">far post</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="540" y1="360" x2="540" y2="940" stroke="#F5F5F0" stroke-width="2" stroke-dasharray="6,6" opacity="0.4"/>
+
+  <text x="310" y="380" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">FRONT SHOULDER</text>
+  <text x="770" y="380" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">FRONT SHOULDER</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+    <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Tell, not law — read in layers.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

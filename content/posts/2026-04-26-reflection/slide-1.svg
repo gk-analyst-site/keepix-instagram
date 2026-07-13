@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <!-- top tag -->
+  <text x="540" y="280" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" text-anchor="middle" letter-spacing="8">WEEKLY REFLECTION</text>
+
+  <!-- quote mark -->
+  <text x="540" y="460" font-family="sans-serif" font-weight="800" font-size="160" fill="#2ECC71" text-anchor="middle" opacity="0.5">&#8220;</text>
+
+  <!-- quote lines -->
+  <text x="540" y="620" font-family="sans-serif" font-weight="800" font-size="72" fill="#F5F5F0" text-anchor="middle" letter-spacing="-1">The scoreline</text>
+  <text x="540" y="710" font-family="sans-serif" font-weight="800" font-size="72" fill="#F5F5F0" text-anchor="middle" letter-spacing="-1">is not the</text>
+  <text x="540" y="800" font-family="sans-serif" font-weight="800" font-size="72" fill="#2ECC71" text-anchor="middle" letter-spacing="-1">scoreboard.</text>
+
+  <!-- divider and attribution -->
+  <line x1="480" y1="880" x2="600" y2="880" stroke="#F5F5F0" stroke-width="2" opacity="0.6"/>
+  <text x="540" y="940" font-family="sans-serif" font-weight="400" font-style="italic" font-size="26" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">— KEEPIX, on why we coach</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

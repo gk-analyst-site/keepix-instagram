@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">PATTERN 02 / THE CROSS-STEP</text><text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">Wider coverage. Faster across.</text>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/><rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+  <!-- GK start (centre) -->
+  <circle cx="540" cy="670" r="36" fill="#FFD700" stroke="#0f3d2e" stroke-width="4"/>
+  <text x="540" y="614" font-family="sans-serif" font-weight="800" font-size="20" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">START</text>
+
+  <!-- cross-step path (legs crossing) -->
+  <path d="M 576 670 C 700 590 800 750 920 670" stroke="#FFD700" stroke-width="5" fill="none" stroke-dasharray="10,6"/>
+  <path d="M 576 670 C 700 750 800 590 920 670" stroke="#FFD700" stroke-width="3" fill="none" stroke-dasharray="6,8" opacity="0.5"/>
+
+  <!-- GK end + recovery arrow back to set -->
+  <circle cx="960" cy="670" r="36" fill="#FFD700" stroke="#2ECC71" stroke-width="5"/>
+  <text x="960" y="614" font-family="sans-serif" font-weight="800" font-size="20" fill="#2ECC71" text-anchor="middle" letter-spacing="3">SET</text>
+
+  <!-- distance label -->
+  <line x1="540" y1="1000" x2="960" y2="1000" stroke="#9FBFAE" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="750" y="1040" font-family="sans-serif" font-weight="800" font-size="24" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">3 – 6 m</text>
+
+  <!-- "drill the recovery" note -->
+  <text x="140" y="810" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="3">DRILL THE RECOVERY</text>
+  <text x="140" y="846" font-family="sans-serif" font-weight="400" font-size="24" fill="#9FBFAE">Getting back to set after the cross-step</text>
+  <text x="140" y="882" font-family="sans-serif" font-weight="400" font-size="24" fill="#9FBFAE">is what most coaches skip.</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/><text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">The recovery is what you actually drill.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

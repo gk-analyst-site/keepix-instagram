@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">PURPOSE-BASED CATEGORIES</text>
+  <text x="80" y="195" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">Pick by what you need to fix.</text>
+  <rect x="85" y="330" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="230" cy="405" r="10" fill="#2ECC71"/><text x="230" y="460" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">FOOTWORK</text><rect x="395" y="330" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="540" cy="405" r="10" fill="#2ECC71"/><text x="540" y="460" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">HANDLING</text><rect x="705" y="330" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="850" cy="405" r="10" fill="#2ECC71"/><text x="850" y="460" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">SET POSITION</text><rect x="85" y="540" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="230" cy="615" r="10" fill="#2ECC71"/><text x="230" y="670" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">CROSSING</text><rect x="395" y="540" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="540" cy="615" r="10" fill="#2ECC71"/><text x="540" y="670" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">1v1</text><rect x="705" y="540" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="850" cy="615" r="10" fill="#2ECC71"/><text x="850" y="670" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">DISTRIBUTION</text><rect x="85" y="750" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="230" cy="825" r="10" fill="#2ECC71"/><text x="230" y="880" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">RECOVERY</text><rect x="395" y="750" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="540" cy="825" r="10" fill="#2ECC71"/><text x="540" y="880" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">COMMUNICATION</text><rect x="705" y="750" width="290" height="190" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.35"/><circle cx="850" cy="825" r="10" fill="#2ECC71"/><text x="850" y="880" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">MATCH SIM</text>
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+    <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Nine tiles. Every session plan starts here.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <!-- eyebrow -->
+  <rect x="80" y="110" width="8" height="60" fill="#2ECC71"/>
+  <text x="120" y="150" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="5">STORY · FROM THE PITCH</text>
+
+  <!-- key phrase -->
+  <text x="80" y="280" font-family="sans-serif" font-weight="800" font-size="66" fill="#F5F5F0" letter-spacing="-1">We were training</text>
+  <text x="80" y="362" font-family="sans-serif" font-weight="800" font-size="66" fill="#F5F5F0" letter-spacing="-1">the execution.</text>
+  <text x="80" y="480" font-family="sans-serif" font-weight="800" font-size="66" fill="#2ECC71" letter-spacing="-1">Not the decision.</text>
+
+  <!-- pitch: GK with distribution arrows radiating out -->
+  <rect x="60" y="560" width="960" height="480" rx="20" ry="20" fill="#1a5c3f"/><rect x="60" y="560" width="960" height="480" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+  <!-- GK at centre-left of pitch -->
+  <circle cx="220" cy="800" r="38" fill="#FFD700" stroke="#0f3d2e" stroke-width="4"/>
+  <text x="220" y="860" font-family="sans-serif" font-weight="800" font-size="20" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">GK</text>
+
+  <!-- distribution arrows: short left, long right, long diagonal -->
+  <line x1="260" y1="800" x2="440" y2="680" stroke="#F5F5F0" stroke-width="4" stroke-dasharray="10,8" marker-end="url(#arr-white)"/>
+  <line x1="260" y1="800" x2="760" y2="800" stroke="#2ECC71" stroke-width="5" marker-end="url(#arr-accent)"/>
+  <line x1="260" y1="800" x2="610" y2="960" stroke="#F5F5F0" stroke-width="4" stroke-dasharray="10,8" marker-end="url(#arr-white)"/>
+
+  <!-- teammate dots -->
+  <circle cx="440" cy="670" r="20" fill="#3498DB" stroke="#0f3d2e" stroke-width="3"/>
+  <circle cx="780" cy="800" r="20" fill="#3498DB" stroke="#0f3d2e" stroke-width="3"/>
+  <circle cx="620" cy="970" r="20" fill="#3498DB" stroke="#0f3d2e" stroke-width="3"/>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/><text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Train the decision. Then train the execution.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

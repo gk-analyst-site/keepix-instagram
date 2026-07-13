@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">PITCHSIDE · SESSION BY SESSION</text>
+  <text x="80" y="195" font-family="sans-serif" font-weight="800" font-size="52" fill="#F5F5F0" letter-spacing="-1">One note. Six ratings. Done.</text>
+
+  <!-- phone -->
+  <rect x="280" y="340" width="520" height="840" rx="50" fill="#0a2d22" stroke="#F5F5F0" stroke-width="4"/>
+  <rect x="460" y="360" width="160" height="16" rx="8" fill="#F5F5F0" opacity="0.2"/>
+  <rect x="310" y="410" width="460" height="740" rx="24" fill="#0f3d2e"/>
+
+  <!-- keeper label (anonymised) -->
+  <rect x="340" y="440" width="200" height="44" rx="22" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2"/>
+  <text x="440" y="470" font-family="sans-serif" font-weight="800" font-size="18" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">KEEPER #3</text>
+
+  <!-- session date chip -->
+  <rect x="550" y="440" width="180" height="44" rx="22" fill="#2ECC71"/>
+  <text x="640" y="470" font-family="sans-serif" font-weight="800" font-size="18" fill="#0f3d2e" text-anchor="middle" letter-spacing="2">13 MAY 2026</text>
+
+  <!-- 6 mini rating rows -->
+  mini_areas = [("SET",0.85),("HANDLING",0.70),("FOOTWORK",0.55),("CROSSING",0.60),("DISTRIB.",0.75),("1v1",0.50)]
+  <!-- manual render instead -->
+  <text x="350" y="540" font-family="sans-serif" font-weight="800" font-size="18" fill="#9FBFAE" letter-spacing="2">SET POSITION</text>
+  <rect x="350" y="552" width="360" height="10" rx="5" fill="#1a5c3f"/>
+  <rect x="350" y="552" width="306" height="10" rx="5" fill="#2ECC71"/>
+
+  <text x="350" y="598" font-family="sans-serif" font-weight="800" font-size="18" fill="#9FBFAE" letter-spacing="2">HANDLING</text>
+  <rect x="350" y="610" width="360" height="10" rx="5" fill="#1a5c3f"/>
+  <rect x="350" y="610" width="252" height="10" rx="5" fill="#2ECC71"/>
+
+  <text x="350" y="656" font-family="sans-serif" font-weight="800" font-size="18" fill="#9FBFAE" letter-spacing="2">FOOTWORK</text>
+  <rect x="350" y="668" width="360" height="10" rx="5" fill="#1a5c3f"/>
+  <rect x="350" y="668" width="198" height="10" rx="5" fill="#2ECC71" opacity="0.7"/>
+
+  <text x="350" y="714" font-family="sans-serif" font-weight="800" font-size="18" fill="#9FBFAE" letter-spacing="2">CROSSING</text>
+  <rect x="350" y="726" width="360" height="10" rx="5" fill="#1a5c3f"/>
+  <rect x="350" y="726" width="216" height="10" rx="5" fill="#2ECC71" opacity="0.7"/>
+
+  <text x="350" y="772" font-family="sans-serif" font-weight="800" font-size="18" fill="#9FBFAE" letter-spacing="2">DISTRIBUTION</text>
+  <rect x="350" y="784" width="360" height="10" rx="5" fill="#1a5c3f"/>
+  <rect x="350" y="784" width="270" height="10" rx="5" fill="#2ECC71"/>
+
+  <text x="350" y="830" font-family="sans-serif" font-weight="800" font-size="18" fill="#9FBFAE" letter-spacing="2">1v1</text>
+  <rect x="350" y="842" width="360" height="10" rx="5" fill="#1a5c3f"/>
+  <rect x="350" y="842" width="180" height="10" rx="5" fill="#2ECC71" opacity="0.6"/>
+
+  <!-- session note field -->
+  <rect x="340" y="880" width="400" height="100" rx="12" fill="#1a5c3f"/>
+  <text x="360" y="910" font-family="sans-serif" font-weight="800" font-size="16" fill="#2ECC71" letter-spacing="2">SESSION NOTE</text>
+  <text x="360" y="940" font-family="sans-serif" font-weight="400" font-size="17" fill="#9FBFAE">Good footwork in crossing block.</text>
+  <text x="360" y="964" font-family="sans-serif" font-weight="400" font-size="17" fill="#9FBFAE">Drop-step still needs work.</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="34" fill="#F5F5F0">Track every keeper. Every session.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

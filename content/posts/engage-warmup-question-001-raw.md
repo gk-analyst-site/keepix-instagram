@@ -1,0 +1,31 @@
+
+[saved caption] -> /Users/user/Dropbox/Mac/Desktop/keepix-instagram/content/captions/engage-warmup-question-001.txt
+```
+TYPE: Engage
+
+HOOK (first line of caption): Pitch time is tight — but there's always one drill you refuse to cut.
+
+CAPTION:
+We've all been there. Fifteen minutes before the session gets handed over to the outfield.
+You have to trim, adapt, and make decisions fast.
+
+But every goalkeeper coach has that one warm-up they protect no matter what — the drill that gets the hands ready, the feet sharp, and the head in the game before a single shot is struck.
+
+Maybe it's a simple side-to-side footwork ladder to wake up the lateral movement. Maybe it's close-range, two-touch handling at pace to get the eyes and hands connected. Or maybe it's something your first GK coach showed you twenty years ago that you've never been able to let go of.
+
+There's no wrong answer here — every session philosophy is different, and that's exactly what makes this worth talking about.
+
+Drop it in the comments below. Drill name, what it does, how long you run it. Let's build a list the whole community can take onto the pitch.
+
+CTA: Comment your go-to warm-up drill below — the more detail, the better 👇
+
+HASHTAGS: #goalkeeper #goalkeepertraining #gkcoach #gkunion #shotstopper #keepersofinstagram #gklife #keepercoach #goalkeepingdrill #gkwarmup #gkdaily #footballcoach #soccercoach #football #soccer #footballtraining #soccertraining #coachingfootball #grassrootsfootball #keepersdaily #gksession #footballdrills #soccerdrills #gkcommunity #keeperlife #coalitiongk #footballcoaching #gktechnique
+
+IMAGE BRIEF:
+Single static image or short reel (6–10 sec loop).
+Option A (static): Overhead or wide-angle shot of a goalkeeper in a ready/set position on a training pitch — low light, early morning or dusk feels authentic. No product in shot; this post is community-first.
+Option B (reel): Quick montage of 3–4 warm-up moments — hands catching, lateral shuffle, set position reset — no music needed, let the ambient pitch sound run. Cut on beat to keep energy high. End frame: KEEPIX logo on plain dark background with the question overlaid as text.
+Keep it raw and real. No studio lighting, no over-produced feel.
+
+ALT TEXT: A goalkeeper in set position on a training pitch, ready to begin a warm-up drill.
+```

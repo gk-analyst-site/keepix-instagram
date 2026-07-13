@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="540" y="200" font-family="sans-serif" font-weight="800" font-size="24" fill="#2ECC71" text-anchor="middle" letter-spacing="6">QUICK TIP · PRE-MATCH</text>
+
+  <text x="540" y="350" font-family="sans-serif" font-weight="800" font-size="48" fill="#9FBFAE" text-anchor="middle" letter-spacing="4">THE KEEPER WARM-UP</text>
+  <text x="540" y="430" font-family="sans-serif" font-weight="800" font-size="140" fill="#2ECC71" text-anchor="middle" letter-spacing="-4">8 MIN</text>
+
+  <line x1="160" y1="480" x2="920" y2="480" stroke="#F5F5F0" stroke-width="2" opacity="0.3"/>
+
+  <!-- four blocks -->
+  <text x="120" y="566" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="2">1–2 MIN</text>
+  <text x="360" y="566" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0">DYNAMIC MOVEMENT</text>
+  <text x="360" y="600" font-family="sans-serif" font-weight="400" font-size="24" fill="#9FBFAE">Shuffles, high knees, hips. No static stretch.</text>
+
+  <text x="120" y="686" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="2">3–4 MIN</text>
+  <text x="360" y="686" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0">HANDLING</text>
+  <text x="360" y="720" font-family="sans-serif" font-weight="400" font-size="24" fill="#9FBFAE">Light rolls and throws. Hands calibrate.</text>
+
+  <text x="120" y="806" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="2">5–6 MIN</text>
+  <text x="360" y="806" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0">SHOT-STOPPING</text>
+  <text x="360" y="840" font-family="sans-serif" font-weight="400" font-size="24" fill="#9FBFAE">Close range, building intensity. Feet moving.</text>
+
+  <text x="120" y="926" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="2">7–8 MIN</text>
+  <text x="360" y="926" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0">DECISION REP</text>
+  <text x="360" y="960" font-family="sans-serif" font-weight="400" font-size="24" fill="#9FBFAE">One cross or long shot. End sharp.</text>
+
+  <rect x="80" y="1130" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1200" font-family="sans-serif" font-weight="800" font-size="32" fill="#F5F5F0">Beyond 8 min is for the coach's nerves.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

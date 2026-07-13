@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+
+  <!-- arrow marker defs -->
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+
+  <!-- accent bar -->
+  <rect x="80" y="300" width="8" height="200" fill="#2ECC71"/>
+
+  <!-- eyebrow -->
+  <text x="120" y="335" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="6">PRE-SESSION GK ACTIVATION</text>
+
+  <!-- main title -->
+  <text x="120" y="480" font-family="sans-serif" font-weight="800" font-size="130" fill="#F5F5F0" letter-spacing="-2">3 WARM-UPS</text>
+  <text x="120" y="610" font-family="sans-serif" font-weight="800" font-size="120" fill="#2ECC71" letter-spacing="-2">12 MINUTES</text>
+
+  <!-- divider -->
+  <line x1="120" y1="720" x2="380" y2="720" stroke="#F5F5F0" stroke-width="3"/>
+
+  <!-- body -->
+  <text x="120" y="790" font-family="sans-serif" font-weight="400" font-size="34" fill="#F5F5F0">Three short drills every keeper coach</text>
+  <text x="120" y="838" font-family="sans-serif" font-weight="400" font-size="34" fill="#F5F5F0">can run before the main block.</text>
+
+  <!-- theme tags -->
+  <text x="120" y="960" font-family="sans-serif" font-weight="800" font-size="26" fill="#9FBFAE" letter-spacing="4">FOOTWORK  ·  HANDLING  ·  DIVING</text>
+  <rect x="120" y="980" width="60" height="6" fill="#2ECC71"/>
+  
+  <!-- pitch stripe visual -->
+  <rect x="0" y="1020" width="1080" height="260" fill="#1a5c3f"/>
+  <!-- goal area simplified -->
+  <rect x="340" y="1020" width="400" height="120" fill="none" stroke="#F5F5F0" stroke-width="4" opacity="0.6"/>
+  <rect x="440" y="1020" width="200" height="60" fill="none" stroke="#F5F5F0" stroke-width="4" opacity="0.6"/>
+  <line x1="0" y1="1020" x2="1080" y2="1020" stroke="#F5F5F0" stroke-width="4" opacity="0.6"/>
+  <!-- penalty spot -->
+  <circle cx="540" cy="1180" r="6" fill="#F5F5F0" opacity="0.6"/>
+  <!-- keeper marker on the line -->
+  <circle cx="540" cy="1080" r="20" fill="#FFD700" stroke="#0f3d2e" stroke-width="3"/>
+
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+
+  <!-- arrow marker defs -->
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+
+  <!-- small caption row -->
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">DRILL 01  /  4 MIN</text>
+  <text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">Ladder &#8594; Set &#8594; Catch</text>
+
+  <!-- pitch area -->
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+    <rect x="144" y="330" width="6" height="380" fill="#F5F5F0" opacity="0.7"/><rect x="320" y="330" width="6" height="380" fill="#F5F5F0" opacity="0.7"/>
+    <rect x="150" y="340" width="170" height="12" rx="3" fill="#F5F5F0"/>
+    <rect x="150" y="400" width="170" height="12" rx="3" fill="#F5F5F0"/>
+    <rect x="150" y="460" width="170" height="12" rx="3" fill="#F5F5F0"/>
+    <rect x="150" y="520" width="170" height="12" rx="3" fill="#F5F5F0"/>
+    <rect x="150" y="580" width="170" height="12" rx="3" fill="#F5F5F0"/>
+    <rect x="150" y="640" width="170" height="12" rx="3" fill="#F5F5F0"/>
+    
+    <text x="235" y="760" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">6-RUNG LADDER</text>
+    
+    <!-- gk movement arrow from ladder exit to GK -->
+    <line x1="235" y1="710" x2="480" y2="700" stroke="#FFD700" stroke-width="6" marker-end="url(#arr-gk)"/>
+
+    <!-- GK body (keeper circle with hands out) -->
+    <circle cx="560" cy="700" r="38" fill="#FFD700" stroke="#0f3d2e" stroke-width="4"/>
+    <!-- hands extended -->
+    <circle cx="490" cy="720" r="16" fill="#FFD700"/>
+    <circle cx="630" cy="720" r="16" fill="#FFD700"/>
+    <line x1="530" y1="715" x2="500" y2="720" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+    <line x1="590" y1="715" x2="620" y2="720" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+    <text x="560" y="795" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">SET POSITION</text>
+
+    
+    <circle cx="900" cy="700" r="36" fill="#3498DB" stroke="#0f3d2e" stroke-width="4"/>
+    <text x="900" y="780" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">COACH</text>
+    <!-- ball trajectory (dotted) from coach chest to GK chest -->
+    <line x1="860" y1="690" x2="610" y2="680" stroke="#F5F5F0" stroke-width="4" stroke-dasharray="10,10" marker-end="url(#arr-white)"/>
+    <text x="730" y="650" font-family="sans-serif" font-weight="800" font-size="20" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">CHEST-HEIGHT BALL</text>
+
+
+  <!-- legend -->
+  <g transform="translate(80,1050)">
+    <circle cx="18" cy="18" r="14" fill="#FFD700"/>
+    <text x="46" y="25" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" letter-spacing="2">GK</text>
+
+    <circle cx="140" cy="18" r="14" fill="#3498DB"/>
+    <text x="168" y="25" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" letter-spacing="2">COACH</text>
+
+    <polygon points="310,32 330,32 320,4" fill="#E67E22"/>
+    <text x="342" y="25" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" letter-spacing="2">CONE</text>
+  </g>
+  <!-- takeaway -->
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Feet &#8594; Hands &#8594; Reset</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

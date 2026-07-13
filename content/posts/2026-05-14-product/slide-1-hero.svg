@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <rect x="80" y="300" width="8" height="200" fill="#2ECC71"/>
+  <text x="120" y="335" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="6">KEEPER PROFILES · KEEPIX</text>
+  <text x="120" y="490" font-family="sans-serif" font-weight="800" font-size="92" fill="#F5F5F0" letter-spacing="-2">KNOW WHERE</text>
+  <text x="120" y="590" font-family="sans-serif" font-weight="800" font-size="92" fill="#F5F5F0" letter-spacing="-2">EVERY KEEPER</text>
+  <text x="120" y="690" font-family="sans-serif" font-weight="800" font-size="92" fill="#2ECC71" letter-spacing="-2">STANDS.</text>
+  <line x1="120" y1="770" x2="380" y2="770" stroke="#F5F5F0" stroke-width="3"/>
+  <text x="120" y="840" font-family="sans-serif" font-weight="400" font-size="34" fill="#F5F5F0">Progress you can see.</text>
+  <text x="120" y="888" font-family="sans-serif" font-weight="400" font-size="34" fill="#F5F5F0">Not just feel.</text>
+  <text x="120" y="1010" font-family="sans-serif" font-weight="800" font-size="24" fill="#9FBFAE" letter-spacing="4">6 AREAS · SESSION BY SESSION</text>
+  <rect x="120" y="1030" width="60" height="6" fill="#2ECC71"/>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

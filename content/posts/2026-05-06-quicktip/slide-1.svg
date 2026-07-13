@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <!-- eyebrow -->
+  <text x="540" y="200" font-family="sans-serif" font-weight="800" font-size="24" fill="#2ECC71" text-anchor="middle" letter-spacing="6">QUICK TIP · AFTER A GOAL</text>
+
+  <!-- 10 seconds label -->
+  <text x="540" y="340" font-family="sans-serif" font-weight="800" font-size="48" fill="#9FBFAE" text-anchor="middle" letter-spacing="4">10 SECONDS</text>
+
+  <!-- divider -->
+  <line x1="160" y1="380" x2="920" y2="380" stroke="#F5F5F0" stroke-width="2" opacity="0.3"/>
+
+  <!-- three cue words stacked -->
+  <text x="540" y="560" font-family="sans-serif" font-weight="800" font-size="130" fill="#F5F5F0" text-anchor="middle" letter-spacing="-3">HEAD UP.</text>
+  <text x="540" y="720" font-family="sans-serif" font-weight="800" font-size="130" fill="#2ECC71" text-anchor="middle" letter-spacing="-3">FEET.</text>
+  <text x="540" y="880" font-family="sans-serif" font-weight="800" font-size="130" fill="#F5F5F0" text-anchor="middle" letter-spacing="-3">NEXT BALL.</text>
+
+  <!-- annotations -->
+  <line x1="160" y1="940" x2="920" y2="940" stroke="#F5F5F0" stroke-width="2" opacity="0.3"/>
+  <text x="540" y="1010" font-family="sans-serif" font-weight="400" font-size="30" fill="#9FBFAE" text-anchor="middle">Three words. In that order. Every time.</text>
+
+  <rect x="80" y="1130" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1200" font-family="sans-serif" font-weight="800" font-size="34" fill="#F5F5F0">Use it now so it means something later.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

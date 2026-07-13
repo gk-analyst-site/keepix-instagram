@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+
+  <!-- arrow marker defs -->
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+
+  <!-- small caption row -->
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">DRILL 03  /  4 MIN</text>
+  <text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">Low-Dive Diagonals</text>
+
+  <!-- pitch area -->
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+    
+    <polygon points="218,590 262,590 240,520" fill="#E67E22"/>
+    <polygon points="818,590 862,590 840,520" fill="#E67E22"/>
+
+    <!-- 4m distance indicator -->
+    <line x1="270" y1="620" x2="810" y2="620" stroke="#F5F5F0" stroke-width="2" stroke-dasharray="6,6" opacity="0.7"/>
+    <rect x="504" y="602" width="72" height="36" rx="6" fill="#0f3d2e"/>
+    <text x="540" y="628" font-family="sans-serif" font-weight="800" font-size="26" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">4 m</text>
+
+    <text x="240" y="670" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">CONE A</text>
+    <text x="840" y="670" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">CONE B</text>
+
+    
+    <circle cx="540" cy="540" r="34" fill="#FFD700" stroke="#0f3d2e" stroke-width="4"/>
+    <text x="540" y="485" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">START</text>
+
+    <!-- 1. shuffle arrow (yellow solid) center -> left -->
+    <line x1="500" y1="540" x2="300" y2="540" stroke="#FFD700" stroke-width="6" marker-end="url(#arr-gk)"/>
+    <text x="420" y="520" font-family="sans-serif" font-weight="800" font-size="22" fill="#FFD700" text-anchor="middle" letter-spacing="3">1. SHUFFLE</text>
+
+    <!-- 2. dive arc from cone A downward to far ball (yellow) -->
+    <path d="M 240 570 Q 160 640 200 730"
+          stroke="#FFD700" stroke-width="6" fill="none" marker-end="url(#arr-gk)"/>
+    <text x="90" y="470" font-family="sans-serif" font-weight="800" font-size="22" fill="#FFD700" letter-spacing="3">2. LOW DIVE</text>
+
+    
+    <circle cx="620" cy="900" r="36" fill="#3498DB" stroke="#0f3d2e" stroke-width="4"/>
+    <text x="620" y="970" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">COACH</text>
+
+    <!-- ball trajectory (dotted) -->
+    <path d="M 590 880 Q 400 720 196 740"
+          stroke="#F5F5F0" stroke-width="4" fill="none" stroke-dasharray="10,10" marker-end="url(#arr-white)"/>
+
+    <!-- ball at landing -->
+    <circle cx="180" cy="740" r="14" fill="#F5F5F0" stroke="#0f3d2e" stroke-width="2"/>
+    <text x="180" y="786" font-family="sans-serif" font-weight="800" font-size="20" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">BALL</text>
+
+
+  <!-- legend -->
+  <g transform="translate(80,1050)">
+    <circle cx="18" cy="18" r="14" fill="#FFD700"/>
+    <text x="46" y="25" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" letter-spacing="2">GK</text>
+
+    <circle cx="140" cy="18" r="14" fill="#3498DB"/>
+    <text x="168" y="25" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" letter-spacing="2">COACH</text>
+
+    <polygon points="310,32 330,32 320,4" fill="#E67E22"/>
+    <text x="342" y="25" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0" letter-spacing="2">CONE</text>
+  </g>
+  <!-- takeaway -->
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Shuffle &#8594; Low dive &#8594; Recover</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

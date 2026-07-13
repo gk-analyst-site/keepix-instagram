@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">PATTERN 01 / THE SHUFFLE &amp; SET</text><text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">Short lateral. Finish in position.</text>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/><rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+  <!-- GK start position (left) -->
+  <circle cx="260" cy="670" r="36" fill="#FFD700" stroke="#0f3d2e" stroke-width="4"/>
+  <text x="260" y="614" font-family="sans-serif" font-weight="800" font-size="20" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">START</text>
+
+  <!-- footstep trail (shuffle) -->
+  <ellipse cx="370" cy="712" rx="18" ry="10" fill="#FFD700" opacity="0.5"/>
+  <ellipse cx="440" cy="640" rx="18" ry="10" fill="#FFD700" opacity="0.5"/>
+  <ellipse cx="510" cy="712" rx="18" ry="10" fill="#FFD700" opacity="0.5"/>
+  <ellipse cx="580" cy="640" rx="18" ry="10" fill="#FFD700" opacity="0.5"/>
+
+  <!-- GK end position (set) -->
+  <circle cx="700" cy="670" r="36" fill="#FFD700" stroke="#2ECC71" stroke-width="5"/>
+  <text x="700" y="614" font-family="sans-serif" font-weight="800" font-size="20" fill="#2ECC71" text-anchor="middle" letter-spacing="3">SET</text>
+
+  <!-- distance label -->
+  <line x1="260" y1="1000" x2="700" y2="1000" stroke="#9FBFAE" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="480" y="1040" font-family="sans-serif" font-weight="800" font-size="24" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">1 – 3 m</text>
+
+  <!-- ball arrival arrow from right -->
+  <line x1="940" y1="670" x2="760" y2="670" stroke="#F5F5F0" stroke-width="5" stroke-dasharray="12,8" marker-end="url(#arr-white)"/>
+  <text x="960" y="646" font-family="sans-serif" font-weight="800" font-size="20" fill="#9FBFAE" letter-spacing="3">BALL</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/><text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Most keepers do this well. Few do it tired.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

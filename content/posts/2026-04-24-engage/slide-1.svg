@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <!-- eyebrow -->
+  <rect x="80" y="230" width="8" height="80" fill="#2ECC71"/>
+  <text x="120" y="280" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="6">ENGAGE · COACHES' QUESTION</text>
+
+  <!-- big question -->
+  <text x="80" y="490" font-family="sans-serif" font-weight="800" font-size="94" fill="#F5F5F0" letter-spacing="-2">What's the</text>
+  <text x="80" y="600" font-family="sans-serif" font-weight="800" font-size="94" fill="#F5F5F0" letter-spacing="-2">first thing</text>
+  <text x="80" y="710" font-family="sans-serif" font-weight="800" font-size="94" fill="#2ECC71" letter-spacing="-2">you teach</text>
+  <text x="80" y="820" font-family="sans-serif" font-weight="800" font-size="94" fill="#F5F5F0" letter-spacing="-2">a young keeper?</text>
+
+  <!-- subline -->
+  <line x1="80" y1="900" x2="240" y2="900" stroke="#F5F5F0" stroke-width="3"/>
+  <text x="80" y="970" font-family="sans-serif" font-weight="400" font-size="32" fill="#F5F5F0">Comment below — one sentence is enough.</text>
+
+  <!-- pitch stripe base -->
+  <rect x="0" y="1120" width="1080" height="180" fill="#1a5c3f"/>
+  <line x1="0" y1="1120" x2="1080" y2="1120" stroke="#F5F5F0" stroke-width="4" opacity="0.4"/>
+  <rect x="380" y="1120" width="320" height="100" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.5"/>
+  <circle cx="540" cy="1170" r="20" fill="#FFD700" stroke="#0f3d2e" stroke-width="3"/>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

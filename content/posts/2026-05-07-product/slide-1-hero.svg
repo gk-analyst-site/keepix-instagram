@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <rect x="80" y="300" width="8" height="200" fill="#2ECC71"/>
+  <text x="120" y="335" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="6">SESSION PLANNING · KEEPIX</text>
+  <text x="120" y="490" font-family="sans-serif" font-weight="800" font-size="130" fill="#F5F5F0" letter-spacing="-3">SUNDAY</text>
+  <text x="120" y="630" font-family="sans-serif" font-weight="800" font-size="130" fill="#2ECC71" letter-spacing="-3">SORTED.</text>
+  <line x1="120" y1="730" x2="380" y2="730" stroke="#F5F5F0" stroke-width="3"/>
+  <text x="120" y="800" font-family="sans-serif" font-weight="400" font-size="34" fill="#F5F5F0">Session planning that fits</text>
+  <text x="120" y="848" font-family="sans-serif" font-weight="400" font-size="34" fill="#F5F5F0">in five minutes.</text>
+  <text x="120" y="970" font-family="sans-serif" font-weight="800" font-size="24" fill="#9FBFAE" letter-spacing="4">FILTER · BUILD · RUN</text>
+  <rect x="120" y="990" width="60" height="6" fill="#2ECC71"/>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

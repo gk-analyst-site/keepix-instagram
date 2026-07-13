@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <!-- eyebrow -->
+  <rect x="80" y="230" width="8" height="80" fill="#2ECC71"/>
+  <text x="120" y="280" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="5">ENGAGE · COACHES' QUESTION</text>
+
+  <!-- question -->
+  <text x="80" y="460" font-family="sans-serif" font-weight="800" font-size="76" fill="#F5F5F0" letter-spacing="-1">When a keeper</text>
+  <text x="80" y="556" font-family="sans-serif" font-weight="800" font-size="76" fill="#F5F5F0" letter-spacing="-1">is in their</text>
+  <text x="80" y="652" font-family="sans-serif" font-weight="800" font-size="76" fill="#2ECC71" letter-spacing="-1">own head —</text>
+  <text x="80" y="748" font-family="sans-serif" font-weight="800" font-size="76" fill="#F5F5F0" letter-spacing="-1">what do you do?</text>
+
+  <!-- divider -->
+  <line x1="80" y1="820" x2="300" y2="820" stroke="#F5F5F0" stroke-width="2" opacity="0.4"/>
+
+  <!-- three options -->
+  <text x="80" y="890" font-family="sans-serif" font-weight="400" font-size="30" fill="#9FBFAE">A physical cue — something with their feet?</text>
+  <text x="80" y="940" font-family="sans-serif" font-weight="400" font-size="30" fill="#9FBFAE">A question to bring them back?</text>
+  <text x="80" y="990" font-family="sans-serif" font-weight="400" font-size="30" fill="#9FBFAE">Silence — let the next ball do the work?</text>
+
+  <!-- cta -->
+  <rect x="80" y="1130" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1200" font-family="sans-serif" font-weight="800" font-size="34" fill="#F5F5F0">One sentence below is enough.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

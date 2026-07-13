@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">BUILD IN FIVE MINUTES</text>
+  <text x="80" y="195" font-family="sans-serif" font-weight="800" font-size="52" fill="#F5F5F0" letter-spacing="-1">60-minute session. Done.</text>
+
+  <!-- filter chips -->
+  <rect x="80" y="270" width="110" height="44" rx="22" fill="#2ECC71"/>
+  <text x="135" y="300" font-family="sans-serif" font-weight="800" font-size="18" fill="#0f3d2e" text-anchor="middle" letter-spacing="2">U16</text>
+  <rect x="202" y="270" width="160" height="44" rx="22" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2"/>
+  <text x="282" y="300" font-family="sans-serif" font-weight="800" font-size="18" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">VALUE</text>
+  <rect x="374" y="270" width="150" height="44" rx="22" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2"/>
+  <text x="449" y="300" font-family="sans-serif" font-weight="800" font-size="18" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">60 MIN</text>
+
+  <rect x="80" y="360" width="147" height="100" rx="12" fill="#2ECC71" opacity="0.85"/><text x="153" y="396" font-family="sans-serif" font-weight="800" font-size="20" fill="#0f3d2e" text-anchor="middle" letter-spacing="2">WARM-UP</text><text x="153" y="426" font-family="sans-serif" font-weight="800" font-size="24" fill="#0f3d2e" text-anchor="middle">10 min</text><rect x="233" y="360" width="300" height="100" rx="12" fill="#3498DB" opacity="0.85"/><text x="383" y="396" font-family="sans-serif" font-weight="800" font-size="20" fill="#0f3d2e" text-anchor="middle" letter-spacing="2">TECHNICAL</text><text x="383" y="426" font-family="sans-serif" font-weight="800" font-size="24" fill="#0f3d2e" text-anchor="middle">20 min</text><rect x="539" y="360" width="300" height="100" rx="12" fill="#FFD700" opacity="0.85"/><text x="689" y="396" font-family="sans-serif" font-weight="800" font-size="20" fill="#0f3d2e" text-anchor="middle" letter-spacing="2">TACTICAL</text><text x="689" y="426" font-family="sans-serif" font-weight="800" font-size="24" fill="#0f3d2e" text-anchor="middle">20 min</text><rect x="845" y="360" width="147" height="100" rx="12" fill="#9FBFAE" opacity="0.85"/><text x="918" y="396" font-family="sans-serif" font-weight="800" font-size="20" fill="#0f3d2e" text-anchor="middle" letter-spacing="2">COOL-DOWN</text><text x="918" y="426" font-family="sans-serif" font-weight="800" font-size="24" fill="#0f3d2e" text-anchor="middle">10 min</text>
+  <rect x="80" y="500" width="296" height="130" rx="12" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2" stroke-opacity="0.6"/><text x="96" y="532" font-family="sans-serif" font-weight="800" font-size="17" fill="#2ECC71" letter-spacing="2">WARM-UP</text><text x="96" y="566" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0">Set Position Intro</text><rect x="392" y="500" width="296" height="130" rx="12" fill="#1a5c3f" stroke="#3498DB" stroke-width="2" stroke-opacity="0.6"/><text x="408" y="532" font-family="sans-serif" font-weight="800" font-size="17" fill="#3498DB" letter-spacing="2">TECHNICAL</text><text x="408" y="566" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0">Angle Play Drill</text><rect x="704" y="500" width="296" height="130" rx="12" fill="#1a5c3f" stroke="#3498DB" stroke-width="2" stroke-opacity="0.6"/><text x="720" y="532" font-family="sans-serif" font-weight="800" font-size="17" fill="#3498DB" letter-spacing="2">TECHNICAL</text><text x="720" y="566" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0">1v1 Scenarios</text><rect x="80" y="646" width="296" height="130" rx="12" fill="#1a5c3f" stroke="#FFD700" stroke-width="2" stroke-opacity="0.6"/><text x="96" y="678" font-family="sans-serif" font-weight="800" font-size="17" fill="#FFD700" letter-spacing="2">TACTICAL</text><text x="96" y="712" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0">Breakaway Pressure</text><rect x="392" y="646" width="296" height="130" rx="12" fill="#1a5c3f" stroke="#FFD700" stroke-width="2" stroke-opacity="0.6"/><text x="408" y="678" font-family="sans-serif" font-weight="800" font-size="17" fill="#FFD700" letter-spacing="2">TACTICAL</text><text x="408" y="712" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0">Match Simulation</text><rect x="704" y="646" width="296" height="130" rx="12" fill="#1a5c3f" stroke="#9FBFAE" stroke-width="2" stroke-opacity="0.6"/><text x="720" y="678" font-family="sans-serif" font-weight="800" font-size="17" fill="#9FBFAE" letter-spacing="2">COOL-DOWN</text><text x="720" y="712" font-family="sans-serif" font-weight="800" font-size="22" fill="#F5F5F0">Light Footwork</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="34" fill="#F5F5F0">Filter. Build. Run.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

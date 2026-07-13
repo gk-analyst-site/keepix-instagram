@@ -1,0 +1,171 @@
+"""scheduled_post.py — calendar.json から当日エントリを投稿する自動実行スクリプト。
+
+launchd から毎日 22:00 に呼ばれる想定。
+scheduled_at が現在時刻 ±60分 以内かつ status=scheduled のエントリを投稿する。
+
+Usage:
+  python3 scripts/scheduled_post.py            # 本番実行
+  python3 scripts/scheduled_post.py --dry-run  # 投稿せず内容確認のみ
+  python3 scripts/scheduled_post.py --window 120  # 検索ウィンドウ分数を変更（デフォルト60）
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import subprocess
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# パス定義
+# ---------------------------------------------------------------------------
+ROOT = Path(__file__).resolve().parent.parent
+CALENDAR_PATH = ROOT / "content" / "calendar.json"
+LOG_PATH = ROOT / "data" / "post_log.txt"
+POSTER = ROOT / "scripts" / "post_to_instagram.py"
+
+JST = timezone(timedelta(hours=9))
+
+
+# ---------------------------------------------------------------------------
+# ログ
+# ---------------------------------------------------------------------------
+def log(msg: str, also_print: bool = True) -> None:
+    LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    ts = datetime.now(JST).strftime("%Y-%m-%d %H:%M:%S JST")
+    line = f"[{ts}] {msg}"
+    with LOG_PATH.open("a", encoding="utf-8") as f:
+        f.write(line + "\n")
+    if also_print:
+        print(line)
+
+
+# ---------------------------------------------------------------------------
+# calendar.json の読み書き
+# ---------------------------------------------------------------------------
+def load_calendar() -> dict:
+    return json.loads(CALENDAR_PATH.read_text(encoding="utf-8"))
+
+
+def save_calendar(cal: dict) -> None:
+    CALENDAR_PATH.write_text(json.dumps(cal, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def mark_posted(post_id: str, ig_media_id: str) -> None:
+    cal = load_calendar()
+    for entry in cal.get("posts", []):
+        if entry["id"] == post_id:
+            entry["status"] = "posted"
+            entry["posted_at"] = datetime.now(JST).strftime("%Y-%m-%dT%H:%M:%S+09:00")
+            entry["ig_media_id"] = ig_media_id
+            break
+    save_calendar(cal)
+
+
+def mark_failed(post_id: str, reason: str) -> None:
+    cal = load_calendar()
+    for entry in cal.get("posts", []):
+        if entry["id"] == post_id:
+            entry["status"] = "failed"
+            entry["failed_at"] = datetime.now(JST).strftime("%Y-%m-%dT%H:%M:%S+09:00")
+            entry["fail_reason"] = reason
+            break
+    save_calendar(cal)
+
+
+# ---------------------------------------------------------------------------
+# 投稿対象エントリを検索
+# ---------------------------------------------------------------------------
+def find_due_entries(window_minutes: int = 60) -> list[dict]:
+    cal = load_calendar()
+    now = datetime.now(JST)
+    due = []
+    for entry in cal.get("posts", []):
+        if entry.get("status") != "scheduled":
+            continue
+        try:
+            scheduled = datetime.fromisoformat(entry["scheduled_at"])
+        except (KeyError, ValueError):
+            continue
+        diff = abs((now - scheduled).total_seconds())
+        if diff <= window_minutes * 60:
+            due.append(entry)
+    return due
+
+
+# ---------------------------------------------------------------------------
+# IG メディア ID をログ出力から抽出
+# ---------------------------------------------------------------------------
+def extract_media_id(output: str) -> str | None:
+    for line in output.splitlines():
+        if "published media id" in line.lower():
+            parts = line.strip().split()
+            return parts[-1] if parts else None
+    return None
+
+
+# ---------------------------------------------------------------------------
+# メイン
+# ---------------------------------------------------------------------------
+def main() -> None:
+    ap = argparse.ArgumentParser(description="Post scheduled KEEPIX entries from calendar.json")
+    ap.add_argument("--dry-run", action="store_true", help="Show what would be posted without calling the API")
+    ap.add_argument("--window", type=int, default=60, help="Window in minutes around scheduled_at to consider (default: 60)")
+    args = ap.parse_args()
+
+    log("=" * 60)
+    log(f"scheduled_post.py 起動 (dry_run={args.dry_run}, window=±{args.window}min)")
+
+    due = find_due_entries(args.window)
+
+    if not due:
+        log("投稿対象エントリなし — 終了")
+        return
+
+    log(f"{len(due)} 件の投稿対象を検出")
+
+    for entry in due:
+        post_id = entry["id"]
+        scheduled_at = entry["scheduled_at"]
+        log(f"  → {post_id} (scheduled_at={scheduled_at})")
+
+        cmd = [
+            sys.executable,
+            str(POSTER),
+            "--from-calendar", post_id,
+        ]
+        if args.dry_run:
+            cmd.append("--dry-run")
+
+        log(f"実行: {' '.join(cmd)}")
+
+        if args.dry_run:
+            # dry-run はサブプロセスも dry-run で呼ぶ（出力を表示するだけ）
+            result = subprocess.run(cmd, capture_output=False, text=True)
+            log(f"[dry-run] 終了コード: {result.returncode}")
+            continue
+
+        # 本番実行
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        combined = result.stdout + result.stderr
+
+        # 出力をログに記録
+        for line in combined.splitlines():
+            log(f"  | {line}", also_print=True)
+
+        if result.returncode == 0:
+            media_id = extract_media_id(result.stdout) or "unknown"
+            log(f"✅ 投稿成功: {post_id} → ig_media_id={media_id}")
+            mark_posted(post_id, media_id)
+        else:
+            reason = result.stderr.strip().splitlines()[-1] if result.stderr.strip() else "unknown error"
+            log(f"❌ 投稿失敗: {post_id} → {reason}")
+            mark_failed(post_id, reason)
+
+    log("scheduled_post.py 完了")
+    log("=" * 60)
+
+
+if __name__ == "__main__":
+    main()

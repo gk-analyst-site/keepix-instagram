@@ -1,0 +1,16 @@
+# --- 秘密情報（絶対にコミットしない）---
+config/.env
+config/.env.bak
+
+# --- 実行時ログ・生成データ ---
+data/
+*.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- macOS ---
+.DS_Store

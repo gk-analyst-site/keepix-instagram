@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">CUE 03 / THE STANDING FOOT</text>
+    <text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">The most reliable tell.</text>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/>
+    <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+  <!-- Left case: foot AHEAD of ball -> driven shot -->
+  <g transform="translate(310, 620)">
+    <!-- ball -->
+    <circle cx="0" cy="60" r="22" fill="#F5F5F0" stroke="#0f3d2e" stroke-width="2"/>
+    <!-- standing foot ahead -->
+    <ellipse cx="0" cy="-20" rx="40" ry="18" fill="#E67E22" opacity="0.9"/>
+    <text x="0" y="-60" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">FOOT AHEAD</text>
+    <!-- downward/low arrow -->
+    <line x1="60" y1="60" x2="170" y2="130" stroke="#2ECC71" stroke-width="5" marker-end="url(#arr-accent)"/>
+    <text x="0" y="150" font-family="sans-serif" font-weight="800" font-size="24" fill="#F5F5F0" text-anchor="middle" letter-spacing="3">LOW &amp; DRIVEN</text>
+  </g>
+
+  <!-- Right case: foot LEVEL with ball -> lifted/placed -->
+  <g transform="translate(770, 620)">
+    <circle cx="0" cy="60" r="22" fill="#F5F5F0" stroke="#0f3d2e" stroke-width="2"/>
+    <ellipse cx="0" cy="60" rx="40" ry="18" fill="#E67E22" opacity="0.9"/>
+    <text x="0" y="20" font-family="sans-serif" font-weight="800" font-size="22" fill="#9FBFAE" text-anchor="middle" letter-spacing="3">FOOT LEVEL</text>
+    <!-- upward/placed arrow -->
+    <line x1="60" y1="40" x2="170" y2="-20" stroke="#2ECC71" stroke-width="5" marker-end="url(#arr-accent)"/>
+    <text x="0" y="150" font-family="sans-serif" font-weight="800" font-size="24" fill="#F5F5F0" text-anchor="middle" letter-spacing="3">LIFTED &amp; PLACED</text>
+  </g>
+
+  <line x1="540" y1="360" x2="540" y2="940" stroke="#F5F5F0" stroke-width="2" stroke-dasharray="6,6" opacity="0.4"/>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+    <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Learn this last — trust it most.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">PITCHSIDE, NOT DESK-SIDE</text>
+  <text x="80" y="195" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">One drill card. Ready to run.</text>
+
+  <!-- phone body -->
+  <rect x="280" y="360" width="520" height="820" rx="50" ry="50" fill="#0a2d22" stroke="#F5F5F0" stroke-width="4"/>
+  <rect x="460" y="380" width="160" height="16" rx="8" fill="#F5F5F0" opacity="0.2"/>
+
+  <!-- screen bg -->
+  <rect x="310" y="430" width="460" height="720" rx="24" ry="24" fill="#0f3d2e"/>
+
+  <!-- filter chips row -->
+  <rect x="340" y="460" width="120" height="44" rx="22" fill="#2ECC71"/>
+  <text x="400" y="490" font-family="sans-serif" font-weight="800" font-size="18" fill="#0f3d2e" text-anchor="middle" letter-spacing="2">U14</text>
+
+  <rect x="470" y="460" width="170" height="44" rx="22" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2"/>
+  <text x="555" y="490" font-family="sans-serif" font-weight="800" font-size="18" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">CROSSING</text>
+
+  <rect x="650" y="460" width="110" height="44" rx="22" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2"/>
+  <text x="705" y="490" font-family="sans-serif" font-weight="800" font-size="18" fill="#F5F5F0" text-anchor="middle" letter-spacing="2">20 MIN</text>
+
+  <!-- selected drill card -->
+  <rect x="340" y="540" width="400" height="300" rx="16" fill="#1a5c3f" stroke="#2ECC71" stroke-width="2"/>
+  <text x="360" y="580" font-family="sans-serif" font-weight="800" font-size="20" fill="#2ECC71" letter-spacing="3">DRILL · CROSSING</text>
+  <text x="360" y="620" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0">High Ball Under Pressure</text>
+  <text x="360" y="660" font-family="sans-serif" font-weight="400" font-size="18" fill="#9FBFAE">20 min · U14-U18 · Main block</text>
+
+  <!-- mini diagram inside card -->
+  <rect x="360" y="680" width="360" height="140" rx="10" fill="#0f3d2e"/>
+  <circle cx="460" cy="750" r="14" fill="#FFD700"/>
+  <circle cx="580" cy="730" r="12" fill="#3498DB"/>
+  <polygon points="660,780 680,780 670,755" fill="#E67E22"/>
+  <line x1="570" y1="740" x2="480" y2="750" stroke="#F5F5F0" stroke-width="2" stroke-dasharray="5,5"/>
+
+  <!-- second (fainter) card peek -->
+  <rect x="340" y="860" width="400" height="160" rx="16" fill="#1a5c3f" opacity="0.5"/>
+  <text x="360" y="900" font-family="sans-serif" font-weight="800" font-size="20" fill="#2ECC71" letter-spacing="3" opacity="0.7">DRILL · CROSSING</text>
+  <text x="360" y="940" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" opacity="0.7">Contested Corner Claim</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+    <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Pick by purpose. Run the session.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="540" y="200" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" text-anchor="middle" letter-spacing="6">QUICK TIP · COACHING FEEDBACK</text>
+
+  <!-- hero -->
+  <text x="540" y="430" font-family="sans-serif" font-weight="800" font-size="220" fill="#2ECC71" text-anchor="middle" letter-spacing="-6">5 SEC</text>
+
+  <line x1="160" y1="480" x2="920" y2="480" stroke="#F5F5F0" stroke-width="2" opacity="0.3"/>
+
+  <!-- format 1 -->
+  <text x="120" y="578" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="2">01  NAME + FIX</text>
+  <text x="120" y="618" font-family="sans-serif" font-weight="400" font-size="26" fill="#9FBFAE">"Feet — wider before the ball."</text>
+
+  <!-- format 2 -->
+  <text x="120" y="716" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="2">02  QUESTION + PAUSE</text>
+  <text x="120" y="756" font-family="sans-serif" font-weight="400" font-size="26" fill="#9FBFAE">"Where were your hands?" Then wait.</text>
+
+  <!-- format 3 -->
+  <text x="120" y="854" font-family="sans-serif" font-weight="800" font-size="28" fill="#2ECC71" letter-spacing="2">03  SILENCE + NEXT REP</text>
+  <text x="120" y="894" font-family="sans-serif" font-weight="400" font-size="26" fill="#9FBFAE">Load the ball. Move on. Fast.</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/>
+  <text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="36" fill="#F5F5F0">One sentence. Then the next ball.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>

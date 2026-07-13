@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <rect width="1080" height="1350" fill="#0f3d2e"/>
+  <defs>
+    <marker id="arr-white" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#F5F5F0"/>
+    </marker>
+    <marker id="arr-gk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#FFD700"/>
+    </marker>
+    <marker id="arr-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ECC71"/>
+    </marker>
+  </defs>
+  
+  <text x="80" y="120" font-family="sans-serif" font-weight="800" font-size="26" fill="#2ECC71" letter-spacing="4">SITUATION 03 / THE SMOTHER</text><text x="80" y="185" font-family="sans-serif" font-weight="800" font-size="58" fill="#F5F5F0" letter-spacing="-1">Drill the trigger. Not the dive.</text>
+  <rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="#1a5c3f"/><rect x="60" y="260" width="960" height="820" rx="20" ry="20" fill="none" stroke="#F5F5F0" stroke-width="3" opacity="0.25"/>
+
+  <!-- goal at bottom -->
+  <rect x="440" y="1050" width="200" height="30" rx="4" fill="none" stroke="#F5F5F0" stroke-width="4" opacity="0.7"/>
+
+  <!-- GK going to ground — elongated shape -->
+  <ellipse cx="480" cy="830" rx="130" ry="38" fill="#FFD700" opacity="0.9" transform="rotate(-15, 480, 830)"/>
+  <circle cx="390" cy="800" r="28" fill="#FFD700" stroke="#0f3d2e" stroke-width="3"/>
+  <text x="480" y="770" font-family="sans-serif" font-weight="800" font-size="20" fill="#FFD700" text-anchor="middle" letter-spacing="3">GK → SMOTHER</text>
+
+  <!-- ball position -->
+  <circle cx="620" cy="740" r="20" fill="#F5F5F0" stroke="#0f3d2e" stroke-width="2"/>
+
+  <!-- striker bearing down -->
+  <circle cx="660" cy="610" r="32" fill="#F5F5F0" stroke="#0f3d2e" stroke-width="3"/>
+  <line x1="655" y1="645" x2="630" y2="715" stroke="#F5F5F0" stroke-width="4" stroke-dasharray="10,8" marker-end="url(#arr-white)"/>
+
+  <!-- trigger point zone -->
+  <rect x="490" y="750" width="260" height="80" rx="10" fill="none" stroke="#2ECC71" stroke-width="3" stroke-dasharray="10,8"/>
+  <text x="620" y="800" font-family="sans-serif" font-weight="800" font-size="22" fill="#2ECC71" text-anchor="middle" letter-spacing="3">TRIGGER ZONE</text>
+  <text x="620" y="870" font-family="sans-serif" font-weight="400" font-size="22" fill="#9FBFAE" text-anchor="middle">Too late = scored. Too early = lobbed.</text>
+
+  <rect x="80" y="1150" width="60" height="6" fill="#2ECC71"/><text x="80" y="1220" font-family="sans-serif" font-weight="800" font-size="38" fill="#F5F5F0">Late smothers lose games. Drill the timing.</text>
+
+  <circle cx="840" cy="1291" r="5" fill="#2ECC71"/>
+  <text x="1020" y="1300" font-family="sans-serif" font-weight="800" font-size="28" fill="#F5F5F0" text-anchor="end" letter-spacing="4">KEEPIX</text>
+</svg>
