@@ -1,11 +1,4 @@
-"""Generic slide generator v2 — adds a goal-frame + ball motif at the bottom.
-
-Same interface as _generate_slides_generic.py: pass post ids as args. For each
-id, reads content/captions/<id>.md → TYPE + HOOK → renders a 1080x1350 PNG with
-hero text on the upper two-thirds and a goal+ball illustration filling the
-lower band. The last accent-coloured clause of the hook still gets the mint
-emphasis colour.
-"""
+"""Generic slide generator v2 — goal-frame + ball motif, per-TYPE background."""
 from __future__ import annotations
 
 import sys
@@ -40,7 +33,6 @@ FOOTER = {
     "Engage":  "DROP YOUR ANSWER BELOW",
 }
 
-# Goal layout
 GOAL_TOP    = 920
 GOAL_BOT    = 1110
 POST_L_X    = 210
@@ -49,6 +41,50 @@ POST_STROKE = 6
 BALL_CX     = W // 2
 BALL_CY     = GOAL_BOT - 14
 BALL_R      = 34
+
+
+def background(ptype: str) -> str:
+    """Per-TYPE background, all inside the dark-green KEEPIX family.
+      Value->Centre Glow  Product->Diagonal Depth  Story->Spotlight
+      Engage->Mowed Stripes  other->Flat Pitch
+    """
+    t = (ptype or "").strip().lower()
+
+    if t == "value":
+        return (
+            '<defs><radialGradient id="bg" cx="50%" cy="36%" r="75%">'
+            '<stop offset="0%" stop-color="#1e6544"/>'
+            '<stop offset="46%" stop-color="#0f3d2e"/>'
+            '<stop offset="100%" stop-color="#0a2c20"/>'
+            '</radialGradient></defs>'
+            f'<rect width="{W}" height="{H}" fill="url(#bg)"/>'
+        )
+    if t == "product":
+        return (
+            '<defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">'
+            '<stop offset="0%" stop-color="#0f3d2e"/>'
+            '<stop offset="48%" stop-color="#0d3a37"/>'
+            '<stop offset="100%" stop-color="#0b2b3d"/>'
+            '</linearGradient></defs>'
+            f'<rect width="{W}" height="{H}" fill="url(#bg)"/>'
+        )
+    if t == "story":
+        return (
+            '<defs><radialGradient id="glow" cx="82%" cy="12%" r="62%">'
+            '<stop offset="0%" stop-color="#2ECC71" stop-opacity="0.22"/>'
+            '<stop offset="46%" stop-color="#2ECC71" stop-opacity="0"/>'
+            '</radialGradient></defs>'
+            f'<rect width="{W}" height="{H}" fill="#0a2118"/>'
+            f'<rect width="{W}" height="{H}" fill="url(#glow)"/>'
+        )
+    if t == "engage":
+        stripe = W // 10
+        rects = f'<rect width="{W}" height="{H}" fill="#0f3d2e"/>'
+        for x in range(0, W, stripe * 2):
+            rects += f'<rect x="{x}" y="0" width="{stripe}" height="{H}" fill="#123f31"/>'
+        return rects
+
+    return f'<rect width="{W}" height="{H}" fill="{BG}"/>'
 
 
 def esc(s: str) -> str:
@@ -97,56 +133,28 @@ def split_emphasis(hook: str) -> tuple[str, str]:
 
 
 def goal_svg() -> str:
-    """Return the SVG snippet for the goal frame + net + ball."""
     parts: list[str] = []
-
-    # Net background — vertical strands
     for x in range(POST_L_X + 30, POST_R_X, 36):
         parts.append(
             f'<line x1="{x}" y1="{GOAL_TOP + POST_STROKE}" x2="{x}" y2="{GOAL_BOT}" '
             f'stroke="{MUTED}" stroke-width="1.2" opacity="0.35"/>'
         )
-    # Net horizontal strands
     for y in range(GOAL_TOP + 40, GOAL_BOT, 38):
         parts.append(
             f'<line x1="{POST_L_X + POST_STROKE}" y1="{y}" x2="{POST_R_X - POST_STROKE}" y2="{y}" '
             f'stroke="{MUTED}" stroke-width="1.2" opacity="0.35"/>'
         )
-
-    # Posts + crossbar (drawn on top of net so they read as frame)
-    parts.append(
-        f'<line x1="{POST_L_X}" y1="{GOAL_TOP}" x2="{POST_R_X}" y2="{GOAL_TOP}" '
-        f'stroke="{TEXT}" stroke-width="{POST_STROKE}" stroke-linecap="round"/>'
-    )
-    parts.append(
-        f'<line x1="{POST_L_X}" y1="{GOAL_TOP}" x2="{POST_L_X}" y2="{GOAL_BOT}" '
-        f'stroke="{TEXT}" stroke-width="{POST_STROKE}" stroke-linecap="round"/>'
-    )
-    parts.append(
-        f'<line x1="{POST_R_X}" y1="{GOAL_TOP}" x2="{POST_R_X}" y2="{GOAL_BOT}" '
-        f'stroke="{TEXT}" stroke-width="{POST_STROKE}" stroke-linecap="round"/>'
-    )
-
-    # Ground line / goal line
-    parts.append(
-        f'<line x1="{POST_L_X - 40}" y1="{GOAL_BOT}" x2="{POST_R_X + 40}" y2="{GOAL_BOT}" '
-        f'stroke="{TEXT}" stroke-width="3" opacity="0.6"/>'
-    )
-
-    # Ball — white sphere with one accent pentagon at top
+    parts.append(f'<line x1="{POST_L_X}" y1="{GOAL_TOP}" x2="{POST_R_X}" y2="{GOAL_TOP}" stroke="{TEXT}" stroke-width="{POST_STROKE}" stroke-linecap="round"/>')
+    parts.append(f'<line x1="{POST_L_X}" y1="{GOAL_TOP}" x2="{POST_L_X}" y2="{GOAL_BOT}" stroke="{TEXT}" stroke-width="{POST_STROKE}" stroke-linecap="round"/>')
+    parts.append(f'<line x1="{POST_R_X}" y1="{GOAL_TOP}" x2="{POST_R_X}" y2="{GOAL_BOT}" stroke="{TEXT}" stroke-width="{POST_STROKE}" stroke-linecap="round"/>')
+    parts.append(f'<line x1="{POST_L_X - 40}" y1="{GOAL_BOT}" x2="{POST_R_X + 40}" y2="{GOAL_BOT}" stroke="{TEXT}" stroke-width="3" opacity="0.6"/>')
     cx, cy, r = BALL_CX, BALL_CY, BALL_R
     parts.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{TEXT}"/>')
-    # Single dark pentagon at the top of the ball (simplified soccer ball cue)
-    p_top = (cx, cy - r + 8)
-    p_l1  = (cx - 18, cy - 4)
-    p_l2  = (cx - 11, cy + 17)
-    p_r2  = (cx + 11, cy + 17)
-    p_r1  = (cx + 18, cy - 4)
-    pts = " ".join(f"{int(x)},{int(y)}" for (x, y) in [p_top, p_l1, p_l2, p_r2, p_r1])
+    p_top = (cx, cy - r + 8); p_l1 = (cx - 18, cy - 4); p_l2 = (cx - 11, cy + 17)
+    p_r2 = (cx + 11, cy + 17); p_r1 = (cx + 18, cy - 4)
+    pts = " ".join(f"{int(a)},{int(b)}" for (a, b) in [p_top, p_l1, p_l2, p_r2, p_r1])
     parts.append(f'<polygon points="{pts}" fill="{BG}"/>')
-    # Subtle accent rim
     parts.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{ACCENT}" stroke-width="2" opacity="0.7"/>')
-
     return "".join(parts)
 
 
@@ -169,7 +177,6 @@ def render_slide(slug: str, ptype: str, hook: str) -> None:
         best_lines = wrap(combined, 22)
         best_fs = pick_font_size(len(best_lines))
 
-    # Tag lines as accent based on lead word count
     rebuilt: list[tuple[str, bool]] = []
     word_idx = 0
     lead_words = len(lead.split())
@@ -178,14 +185,11 @@ def render_slide(slug: str, ptype: str, hook: str) -> None:
         rebuilt.append((line, is_accent))
         word_idx += len(line.split())
 
-    # Layout: text block lives between y=300 and y=GOAL_TOP - 40
     text_zone_top = 300
     text_zone_bot = GOAL_TOP - 40
     text_zone_h = text_zone_bot - text_zone_top
-
     line_height = int(best_fs * 1.15)
     block_h = line_height * len(rebuilt)
-    # vertically centre the block within the text zone
     start_y = text_zone_top + (text_zone_h - block_h) // 2 + best_fs // 2
 
     text_svgs = []
@@ -207,7 +211,7 @@ def render_slide(slug: str, ptype: str, hook: str) -> None:
 '''
     svg = f'''<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
-  <rect width="{W}" height="{H}" fill="{BG}"/>
+  {background(ptype)}
   {body}
   <circle cx="{W-240}" cy="{H-59}" r="5" fill="{ACCENT}"/>
   <text x="{W-60}" y="{H-50}" font-family="{F_BOLD}" font-size="28" fill="{TEXT}" text-anchor="end" letter-spacing="4">KEEPIX</text>

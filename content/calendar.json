@@ -549,17 +549,6 @@
       "ig_media_id": "18079723856361120"
     },
     {
-      "id": "2026-06-03-story-keeper-nobody-picked",
-      "scheduled_at": "2026-06-03T22:00:00+09:00",
-      "type": "Story",
-      "theme": "The keeper nobody picked who became captain",
-      "caption_path": "content/captions/2026-06-03-story-keeper-nobody-picked.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069347/keepix-instagram/2026-06-03-story-keeper-nobody-picked/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
       "id": "2026-06-04-product-age-appropriate",
       "scheduled_at": "2026-06-04T22:00:00+09:00",
       "type": "Product",
@@ -714,83 +703,6 @@
       "status": "posted",
       "posted_at": "2026-06-15T22:00:26+09:00",
       "ig_media_id": "18109902421821908"
-    },
-    {
-      "id": "2026-06-16-value-wet-weather",
-      "scheduled_at": "2026-06-16T22:00:00+09:00",
-      "type": "Value",
-      "theme": "Handling the ball in wet weather",
-      "caption_path": "content/captions/2026-06-16-value-wet-weather.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069360/keepix-instagram/2026-06-16-value-wet-weather/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "2026-06-17-story-coaching-own-child",
-      "scheduled_at": "2026-06-17T22:00:00+09:00",
-      "type": "Story",
-      "theme": "Coaching your own child as a keeper",
-      "caption_path": "content/captions/2026-06-17-story-coaching-own-child.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069360/keepix-instagram/2026-06-17-story-coaching-own-child/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "2026-06-18-product-periodization",
-      "scheduled_at": "2026-06-18T22:00:00+09:00",
-      "type": "Product",
-      "theme": "Periodization across a GK season",
-      "caption_path": "content/captions/2026-06-18-product-periodization.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069361/keepix-instagram/2026-06-18-product-periodization/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "2026-06-19-value-close-range-footwork",
-      "scheduled_at": "2026-06-19T22:00:00+09:00",
-      "type": "Value",
-      "theme": "Footwork for close-range shots",
-      "caption_path": "content/captions/2026-06-19-value-close-range-footwork.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069362/keepix-instagram/2026-06-19-value-close-range-footwork/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "2026-06-20-product-drill-library",
-      "scheduled_at": "2026-06-20T22:00:00+09:00",
-      "type": "Product",
-      "theme": "Navigating a drill library by purpose",
-      "caption_path": "content/captions/2026-06-20-product-drill-library.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069363/keepix-instagram/2026-06-20-product-drill-library/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "2026-06-21-value-low-vs-high-shots",
-      "scheduled_at": "2026-06-21T22:00:00+09:00",
-      "type": "Value",
-      "theme": "Reading low shots vs high shots",
-      "caption_path": "content/captions/2026-06-21-value-low-vs-high-shots.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1782164761/keepix-instagram/2026-06-21-value-low-vs-high-shots/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "2026-06-22-product-one-coach-templates",
-      "scheduled_at": "2026-06-22T22:00:00+09:00",
-      "type": "Product",
-      "theme": "Session templates for the solo keeper coach",
-      "caption_path": "content/captions/2026-06-22-product-one-coach-templates.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1782164762/keepix-instagram/2026-06-22-product-one-coach-templates/slide-1.png"
-      ],
-      "status": "scheduled"
     },
     {
       "id": "2026-06-23-value-chest-vs-hands",
@@ -949,8 +861,109 @@
       "ig_media_id": "18098029625612744"
     },
     {
+      "id": "2026-07-13-product-concepts-vs-drills",
+      "scheduled_at": "2026-07-13T22:00:00+09:00",
+      "type": "Product",
+      "theme": "Logging concepts vs logging drills",
+      "caption_path": "content/captions/2026-07-13-product-concepts-vs-drills.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1782164779/keepix-instagram/2026-07-13-product-concepts-vs-drills/slide-1.png"
+      ],
+      "status": "posted",
+      "posted_at": "2026-07-13T22:00:11+09:00",
+      "ig_media_id": "17864839431602217"
+    },
+    {
+      "id": "2026-06-03-story-keeper-nobody-picked",
+      "scheduled_at": "2026-07-14T22:00:00+09:00",
+      "type": "Story",
+      "theme": "The keeper nobody picked who became captain",
+      "caption_path": "content/captions/2026-06-03-story-keeper-nobody-picked.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069347/keepix-instagram/2026-06-03-story-keeper-nobody-picked/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "2026-06-16-value-wet-weather",
+      "scheduled_at": "2026-07-15T22:00:00+09:00",
+      "type": "Value",
+      "theme": "Handling the ball in wet weather",
+      "caption_path": "content/captions/2026-06-16-value-wet-weather.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069360/keepix-instagram/2026-06-16-value-wet-weather/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "2026-06-17-story-coaching-own-child",
+      "scheduled_at": "2026-07-16T22:00:00+09:00",
+      "type": "Story",
+      "theme": "Coaching your own child as a keeper",
+      "caption_path": "content/captions/2026-06-17-story-coaching-own-child.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069360/keepix-instagram/2026-06-17-story-coaching-own-child/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "2026-06-18-product-periodization",
+      "scheduled_at": "2026-07-17T22:00:00+09:00",
+      "type": "Product",
+      "theme": "Periodization across a GK season",
+      "caption_path": "content/captions/2026-06-18-product-periodization.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069361/keepix-instagram/2026-06-18-product-periodization/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "2026-06-19-value-close-range-footwork",
+      "scheduled_at": "2026-07-18T22:00:00+09:00",
+      "type": "Value",
+      "theme": "Footwork for close-range shots",
+      "caption_path": "content/captions/2026-06-19-value-close-range-footwork.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069362/keepix-instagram/2026-06-19-value-close-range-footwork/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "2026-06-20-product-drill-library",
+      "scheduled_at": "2026-07-19T22:00:00+09:00",
+      "type": "Product",
+      "theme": "Navigating a drill library by purpose",
+      "caption_path": "content/captions/2026-06-20-product-drill-library.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1780069363/keepix-instagram/2026-06-20-product-drill-library/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "2026-06-21-value-low-vs-high-shots",
+      "scheduled_at": "2026-07-20T22:00:00+09:00",
+      "type": "Value",
+      "theme": "Reading low shots vs high shots",
+      "caption_path": "content/captions/2026-06-21-value-low-vs-high-shots.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1782164761/keepix-instagram/2026-06-21-value-low-vs-high-shots/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
+      "id": "2026-06-22-product-one-coach-templates",
+      "scheduled_at": "2026-07-21T22:00:00+09:00",
+      "type": "Product",
+      "theme": "Session templates for the solo keeper coach",
+      "caption_path": "content/captions/2026-06-22-product-one-coach-templates.md",
+      "image_urls": [
+        "https://res.cloudinary.com/drcsslwyg/image/upload/v1782164762/keepix-instagram/2026-06-22-product-one-coach-templates/slide-1.png"
+      ],
+      "status": "scheduled"
+    },
+    {
       "id": "2026-07-05-value-distribution-press",
-      "scheduled_at": "2026-07-05T22:00:00+09:00",
+      "scheduled_at": "2026-07-22T22:00:00+09:00",
       "type": "Value",
       "theme": "Distribution under press — short vs long",
       "caption_path": "content/captions/2026-07-05-value-distribution-press.md",
@@ -961,7 +974,7 @@
     },
     {
       "id": "2026-07-06-product-multi-age-curriculum",
-      "scheduled_at": "2026-07-06T22:00:00+09:00",
+      "scheduled_at": "2026-07-23T22:00:00+09:00",
       "type": "Product",
       "theme": "Curriculum across multiple age groups",
       "caption_path": "content/captions/2026-07-06-product-multi-age-curriculum.md",
@@ -972,7 +985,7 @@
     },
     {
       "id": "2026-07-07-value-winger-body-shape",
-      "scheduled_at": "2026-07-07T22:00:00+09:00",
+      "scheduled_at": "2026-07-24T22:00:00+09:00",
       "type": "Value",
       "theme": "Reading wingers' body shape in 1v1",
       "caption_path": "content/captions/2026-07-07-value-winger-body-shape.md",
@@ -983,7 +996,7 @@
     },
     {
       "id": "2026-07-08-engage-worst-feedback",
-      "scheduled_at": "2026-07-08T22:00:00+09:00",
+      "scheduled_at": "2026-07-25T22:00:00+09:00",
       "type": "Engage",
       "theme": "Worst feedback you ever got — and why it stuck",
       "caption_path": "content/captions/2026-07-08-engage-worst-feedback.md",
@@ -994,7 +1007,7 @@
     },
     {
       "id": "2026-07-09-value-limited-vision",
-      "scheduled_at": "2026-07-09T22:00:00+09:00",
+      "scheduled_at": "2026-07-26T22:00:00+09:00",
       "type": "Value",
       "theme": "Goalkeeping with limited vision",
       "caption_path": "content/captions/2026-07-09-value-limited-vision.md",
@@ -1005,7 +1018,7 @@
     },
     {
       "id": "2026-07-10-story-stopped-feedback-rep",
-      "scheduled_at": "2026-07-10T22:00:00+09:00",
+      "scheduled_at": "2026-07-27T22:00:00+09:00",
       "type": "Story",
       "theme": "Why I stopped giving feedback every rep",
       "caption_path": "content/captions/2026-07-10-story-stopped-feedback-rep.md",
@@ -1016,7 +1029,7 @@
     },
     {
       "id": "2026-07-11-product-tryout-protocol",
-      "scheduled_at": "2026-07-11T22:00:00+09:00",
+      "scheduled_at": "2026-07-28T22:00:00+09:00",
       "type": "Product",
       "theme": "Goalkeeper-specific tryout protocol",
       "caption_path": "content/captions/2026-07-11-product-tryout-protocol.md",
@@ -1027,23 +1040,12 @@
     },
     {
       "id": "2026-07-12-value-near-post-crosses",
-      "scheduled_at": "2026-07-12T22:00:00+09:00",
+      "scheduled_at": "2026-07-29T22:00:00+09:00",
       "type": "Value",
       "theme": "Keeper positioning on near-post crosses",
       "caption_path": "content/captions/2026-07-12-value-near-post-crosses.md",
       "image_urls": [
         "https://res.cloudinary.com/drcsslwyg/image/upload/v1782164778/keepix-instagram/2026-07-12-value-near-post-crosses/slide-1.png"
-      ],
-      "status": "scheduled"
-    },
-    {
-      "id": "2026-07-13-product-concepts-vs-drills",
-      "scheduled_at": "2026-07-13T22:00:00+09:00",
-      "type": "Product",
-      "theme": "Logging concepts vs logging drills",
-      "caption_path": "content/captions/2026-07-13-product-concepts-vs-drills.md",
-      "image_urls": [
-        "https://res.cloudinary.com/drcsslwyg/image/upload/v1782164779/keepix-instagram/2026-07-13-product-concepts-vs-drills/slide-1.png"
       ],
       "status": "scheduled"
     }
