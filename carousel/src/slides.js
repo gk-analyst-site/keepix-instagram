@@ -41,6 +41,7 @@ const WHITE = "#FFFFFF";
 const GRAY = "#93A29B";
 const BODYCOL = "#D7DEDA";
 const INK = "#08110D"; // dark text on green
+const INK_MUTED = "#123227"; // muted dark text on green
 const HEAD = jp ? "J4KHead, J4KJP" : "J4KHead";
 const BODY = jp ? "J4KBody, J4KJP" : "J4KBody";
 const HANDLE = "@KEEPIX.GK_OFFICIAL";
@@ -164,6 +165,12 @@ function footer(ctx, rightText, { onAccent = false } = {}) {
   ctx.textAlign = "left";
 }
 
+function spaced(str) {
+  return str.split("").join(" ");
+}
+
+// --- Bilingual slides (Japanese primary + English secondary) ---
+
 function drawCover(ctx, s, logo) {
   ctx.fillStyle = BG;
   ctx.fillRect(0, 0, W, H);
@@ -178,22 +185,42 @@ function drawCover(ctx, s, logo) {
   ctx.textBaseline = "alphabetic";
   ctx.fillText(spaced(kicker), M, 354);
 
-  ctx.font = `90px ${HEAD}`;
+  // Japanese title (primary)
+  ctx.font = `82px ${HEAD}`;
   ctx.fillStyle = WHITE;
-  const titleLines = wrapLines(ctx, s.title || "", W - M * 2);
   let y = 470;
-  for (const ln of titleLines) {
-    y += 96;
+  for (const ln of wrapLines(ctx, s.title || "", W - M * 2)) {
+    y += 90;
     ctx.fillText(ln, M, y);
   }
 
-  if (s.subtitle) {
-    ctx.font = `40px ${BODY}`;
-    ctx.fillStyle = GRAY;
-    const subLines = wrapLines(ctx, s.subtitle, W - M * 2);
-    y += 40;
-    for (const ln of subLines) {
+  // English title (secondary, mint)
+  if (s.titleEn) {
+    ctx.font = `44px ${HEAD}`;
+    ctx.fillStyle = ACCENT;
+    y += 24;
+    for (const ln of wrapLines(ctx, s.titleEn, W - M * 2)) {
       y += 54;
+      ctx.fillText(ln, M, y);
+    }
+  }
+
+  // Subtitles (JP then EN, both muted)
+  if (s.subtitle) {
+    ctx.font = `38px ${BODY}`;
+    ctx.fillStyle = GRAY;
+    y += 34;
+    for (const ln of wrapLines(ctx, s.subtitle, W - M * 2)) {
+      y += 50;
+      ctx.fillText(ln, M, y);
+    }
+  }
+  if (s.subtitleEn) {
+    ctx.font = `30px ${BODY}`;
+    ctx.fillStyle = GRAY;
+    y += 14;
+    for (const ln of wrapLines(ctx, s.subtitleEn, W - M * 2)) {
+      y += 42;
       ctx.fillText(ln, M, y);
     }
   }
@@ -205,42 +232,71 @@ function drawContent(ctx, s, index, total) {
   ctx.fillStyle = BG;
   ctx.fillRect(0, 0, W, H);
 
-  let y = 210;
+  let y = 200;
   if (s.badge) {
     ctx.fillStyle = ACCENT;
-    roundRect(ctx, M, y, 96, 96, 22);
+    roundRect(ctx, M, y, 88, 88, 22);
     ctx.fill();
     ctx.fillStyle = INK;
-    ctx.font = `56px ${HEAD}`;
+    ctx.font = `52px ${HEAD}`;
     ctx.textAlign = "center";
     ctx.textBaseline = "middle";
-    ctx.fillText(String(s.badge), M + 48, y + 52);
+    ctx.fillText(String(s.badge), M + 44, y + 48);
     ctx.textAlign = "left";
     ctx.textBaseline = "alphabetic";
-    y += 150;
+    y += 132;
   } else {
     ctx.fillStyle = ACCENT;
     ctx.fillRect(M, y, 64, 8);
-    y += 40;
+    y += 36;
   }
 
-  ctx.font = `58px ${HEAD}`;
+  // Japanese heading (primary)
+  ctx.font = `54px ${HEAD}`;
   ctx.fillStyle = WHITE;
-  const headLines = wrapLines(ctx, s.heading || "", W - M * 2);
-  for (const ln of headLines) {
-    y += 66;
+  for (const ln of wrapLines(ctx, s.heading || "", W - M * 2)) {
+    y += 62;
     ctx.fillText(ln, M, y);
   }
+  // English heading (secondary, mint)
+  if (s.headingEn) {
+    ctx.font = `30px ${HEAD}`;
+    ctx.fillStyle = ACCENT;
+    y += 12;
+    for (const ln of wrapLines(ctx, s.headingEn, W - M * 2)) {
+      y += 38;
+      ctx.fillText(ln, M, y);
+    }
+  }
 
-  y += 30;
+  y += 20;
   const maxWidth = W - M * 2;
   const available = H - M - 70 - y;
-  let size = 40;
-  for (const trySize of [40, 37, 34, 31, 28]) {
-    size = trySize;
-    if (measureBodyHeight(ctx, s.body || "", maxWidth, trySize) <= available) break;
+  const jp = s.body || "";
+  const en = s.bodyEn || "";
+
+  // Pick one size so JP body + divider + EN body all fit.
+  let size = 36;
+  for (const t of [36, 33, 30, 28, 26, 24, 22]) {
+    size = t;
+    const hJp = measureBodyHeight(ctx, jp, maxWidth, t);
+    const hEn = en ? measureBodyHeight(ctx, en, maxWidth, Math.max(t - 3, 20)) : 0;
+    const gap = en ? 44 : 0;
+    if (hJp + gap + hEn <= available) break;
   }
-  drawBody(ctx, s.body || "", M, y, maxWidth, { size });
+
+  let cy = drawBody(ctx, jp, M, y, maxWidth, { size, color: BODYCOL });
+  if (en) {
+    cy += 22;
+    ctx.strokeStyle = "rgba(95,227,161,0.35)";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(M, cy);
+    ctx.lineTo(M + 120, cy);
+    ctx.stroke();
+    cy += 6;
+    drawBody(ctx, en, M, cy, maxWidth, { size: Math.max(size - 3, 20), color: GRAY });
+  }
 
   footer(ctx, `${index} / ${total}`);
 }
@@ -255,34 +311,50 @@ function drawCta(ctx, s, logo) {
   ctx.font = `bold 30px ${HEAD}`;
   ctx.fillText(spaced((s.kicker || "KEEPIX").toUpperCase()), M, 360);
 
-  ctx.font = `82px ${HEAD}`;
-  const titleLines = wrapLines(ctx, s.title || "", W - M * 2);
+  // Japanese title (primary)
+  ctx.font = `74px ${HEAD}`;
+  ctx.fillStyle = INK;
   let y = 420;
-  for (const ln of titleLines) {
-    y += 90;
+  for (const ln of wrapLines(ctx, s.title || "", W - M * 2)) {
+    y += 82;
     ctx.fillText(ln, M, y);
   }
-
-  if (s.body) {
-    y += 30;
-    ctx.font = `40px ${BODY}`;
-    ctx.fillStyle = "#123227";
-    const lines = wrapLines(ctx, s.body, W - M * 2);
-    for (const ln of lines) {
-      y += 56;
+  // English title (secondary)
+  if (s.titleEn) {
+    ctx.font = `40px ${HEAD}`;
+    ctx.fillStyle = INK_MUTED;
+    y += 16;
+    for (const ln of wrapLines(ctx, s.titleEn, W - M * 2)) {
+      y += 48;
       ctx.fillText(ln, M, y);
     }
   }
 
-  ctx.font = `48px ${HEAD}`;
+  // Body JP then EN
+  if (s.body) {
+    y += 28;
+    ctx.font = `38px ${BODY}`;
+    ctx.fillStyle = INK_MUTED;
+    for (const ln of wrapLines(ctx, s.body, W - M * 2)) {
+      y += 52;
+      ctx.fillText(ln, M, y);
+    }
+  }
+  if (s.bodyEn) {
+    y += 12;
+    ctx.font = `32px ${BODY}`;
+    ctx.fillStyle = "rgba(8,17,13,0.62)";
+    for (const ln of wrapLines(ctx, s.bodyEn, W - M * 2)) {
+      y += 44;
+      ctx.fillText(ln, M, y);
+    }
+  }
+
+  ctx.font = `44px ${HEAD}`;
   ctx.fillStyle = INK;
   ctx.fillText(HANDLE, M, H - M - 90);
 
   footer(ctx, "FOLLOW", { onAccent: true });
-}
-
-function spaced(str) {
-  return str.split("").join(" ");
 }
 
 function renderSlide(slide, index, total, logo) {
