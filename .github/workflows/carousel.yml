@@ -1,0 +1,59 @@
+name: KEEPIX carousel (Mon/Wed/Fri)
+
+on:
+  schedule:
+    # 00:00 UTC = 09:00 JST, Monday / Wednesday / Friday
+    - cron: "0 0 * * 1,3,5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render slides only, do NOT post to Instagram"
+        type: boolean
+        default: false
+
+# Allow the job to push the generated slides + progress back to the repo.
+permissions:
+  contents: write
+
+# Never run two posting jobs at once.
+concurrency:
+  group: keepix-carousel
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install fonts (Latin + Japanese CJK)
+        run: sudo apt-get update && sudo apt-get install -y fonts-liberation fonts-noto-cjk
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: carousel
+        run: npm ci || npm install
+
+      - name: Configure git
+        run: |
+          git config user.name "keepix-carousel-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run carousel poster
+        working-directory: carousel
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: node src/run.js
