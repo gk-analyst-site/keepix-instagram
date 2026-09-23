@@ -13,10 +13,11 @@
     "2026-09-16-handling-crosses": {
       "totalParts": 2,
       "postedParts": [
-        1
+        1,
+        2
       ],
-      "done": false,
-      "lastPostedAt": "2026-09-21T03:27:02.625Z"
+      "done": true,
+      "lastPostedAt": "2026-09-23T03:26:47.604Z"
     }
   }
 }
