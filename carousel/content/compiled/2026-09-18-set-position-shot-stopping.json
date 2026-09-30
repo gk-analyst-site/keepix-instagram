@@ -1,0 +1,98 @@
+{
+  "articleTitle": "セットポジションとシュートストップ — 止まってから止める",
+  "totalParts": 2,
+  "parts": [
+    {
+      "part": 1,
+      "caption": "【Part 1/2】好セーブはシュートを打たれる前に決まっている。正しい構えとセットのタイミングを解説します。速く動くより「止まって構える」ことが反応の質を決めます。\n\n[Part 1 of 2] Great saves are decided before the shot. We break down the ready position and the timing of the set. Being still at the right moment beats moving fast.\n\n#ゴールキーパー #GK練習 #キーパー #goalkeeping #goalkeepertraining #keepix",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "止まってから止める",
+          "titleEn": "Be Still, Then Stop It",
+          "subtitle": "好セーブは打たれる前に決まる",
+          "subtitleEn": "Great saves are decided before the shot"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "構えの基本",
+          "headingEn": "The Ready Position",
+          "body": "足は肩幅より少し広く、体重は母指球に。かかと重心だと一歩目が遅れる。\n\n手は腰の高さで前に。上体は少し前傾で、どこへでも同じ速さで出られる。",
+          "bodyEn": "Feet a little wider than shoulders, weight on the balls of your feet. On your heels, the first step is slow.\n\nHands forward at hip height, torso leaning slightly ahead so you move equally in any direction."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "手を下げすぎない",
+          "headingEn": "Don't Drop Your Hands",
+          "body": "低いシュートに一番遅れやすい。\n\n手をだらんと下げず、腰の高さで前に置くのが鍵。",
+          "bodyEn": "Low shots are the ones you're slowest to reach.\n\nDon't let your hands hang down. Keep them forward at hip height."
+        },
+        {
+          "type": "content",
+          "badge": "3",
+          "heading": "セットのタイミング",
+          "headingEn": "Timing the Set",
+          "body": "一番大事なのがセットの瞬間。相手が蹴る足を振り下ろす直前に、小さくホップして両足を接地させ動きを止める。\n\n歩行中や跳躍中に打たれると逆を突かれる。",
+          "bodyEn": "The set is the most important moment. Just before the striker's foot swings down, do a small hop and land both feet to stop your motion.\n\nIf you're walking or jumping when they shoot, you get beaten the other way."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "次はパリング",
+          "titleEn": "Next: Parrying",
+          "body": "Part 2で弾く方向のコントロールを解説。保存して待とう。",
+          "bodyEn": "Part 2 covers controlling where you parry. Save this and stay tuned."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "caption": "【Part 2/2】すべてをキャッチする必要はない。確実に抱えられないときは、危険のない方向へ「狙って」弾く。パリングは逃げではなく、次の危険を消す技術です。\n\n[Part 2 of 2] You don't have to catch everything. When you can't hold it, parry to a safe direction on purpose. Parrying isn't an escape — it's a skill that removes the next danger.\n\n#ゴールキーパー #GK練習 #パリング #goalkeeping #parrying #keepix",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "安全な方向へ弾く",
+          "titleEn": "Parry to Safety",
+          "subtitle": "パリングは逃げではなく技術",
+          "subtitleEn": "Parrying isn't an escape — it's a skill"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "弾く判断",
+          "headingEn": "When to Parry",
+          "body": "速い・濡れている・混戦——確実に抱えられないときは弾く。\n\nすべてをキャッチする必要はない。",
+          "bodyEn": "Fast, wet, or crowded — when you can't securely hold it, parry.\n\nYou don't have to catch everything."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "弾く方向",
+          "headingEn": "Where to Parry",
+          "body": "前や中央に弾くと二次失点になる。\n\n手のひらや指で、外・上・グラウンダーなら横へ、危険のない方向へ狙って弾く。",
+          "bodyEn": "Parrying forward or into the middle invites a second chance.\n\nUse palm or fingers to steer it wide, over, or to the side for grounders — always toward a safe direction."
+        },
+        {
+          "type": "content",
+          "badge": "3",
+          "heading": "まとめ",
+          "headingEn": "Summary",
+          "body": "正しい構え→インパクトで止まる→安全な方向へ弾く。\n\n派手な反応より、この準備が失点を減らす。",
+          "bodyEn": "Correct ready position, then be still at impact, then parry to a safe direction.\n\nThis preparation beats flashy reactions at cutting goals."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "止まってから止める",
+          "titleEn": "Be Still, Then Stop It",
+          "body": "シリーズ完結。役立ったら保存とシェアを。",
+          "bodyEn": "Series complete. Save and share if this helped."
+        }
+      ]
+    }
+  ]
+}
