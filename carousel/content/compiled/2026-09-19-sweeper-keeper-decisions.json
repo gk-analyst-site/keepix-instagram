@@ -1,0 +1,90 @@
+{
+  "articleTitle": "飛び出しの判断 — スイーパーとしてのキーパー",
+  "totalParts": 2,
+  "parts": [
+    {
+      "part": 1,
+      "caption": "【第1回/全2回】飛び出しの判断、第一歩は「準備」と「基準」。\n裏へのボールに出るか留まるか——迷いを減らすのは度胸ではなく読みです。次回は触り方とまとめ。\n\nPart 1 of 2: Sweeper keeping starts with preparation and a clear decision rule. Coming out or staying is about reading, not just bravery. Part 2 covers how to touch the ball.\n\n#ゴールキーパー #GK #キーパー #飛び出し #サッカー #goalkeeper #goalkeepertraining #sweeperkeeper #KEEPIX",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "飛び出しの判断",
+          "titleEn": "The Decision to Come Out",
+          "subtitle": "スイーパーとしてのキーパー",
+          "subtitleEn": "The keeper as a sweeper"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "予測して構える",
+          "headingEn": "Predict and Get Ready",
+          "body": "味方が高い位置を取ったら、キーパーも前へ出る。ゴールに張り付いては裏に間に合わない。\n\nボールが出る前に「出る準備」を済ませる。準備していない飛び出しは遅れる。",
+          "bodyEn": "When your teammates push high, push up with them. Stuck on the line, you'll never reach balls in behind.\n\nBe ready to come out before the ball is played. An unprepared rush is almost always too late."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "出る／留まるの基準",
+          "headingEn": "Come Out or Stay",
+          "body": "基準は「自分と相手、どちらが先に触れるか」。明確に先なら迷わず出る。\n\n五分五分なら出ない。中途半端が一番危ない。留まるなら素早く後退し構え直す。",
+          "bodyEn": "The rule: who reaches the ball first, you or the attacker? If it's clearly you, come out without hesitation.\n\nIf it's 50-50, stay. Half-measures are the most dangerous. If you stay, drop back fast and reset."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "次回へ続く",
+          "titleEn": "To Be Continued",
+          "body": "第2回は「触り方」とまとめ。保存して続きを待とう。",
+          "bodyEn": "Part 2: how to touch the ball, plus the summary. Save this and stay tuned."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "caption": "【第2回/全2回】準備と基準の次は「触り方」。\n時間があればつなぎ、危険なら迷わずクリア。安全第一で背後を守りましょう。\n\nPart 2 of 2: Once you've decided to come out, choose how to touch the ball by the situation. Play out when safe, clear when in danger. Safety first.\n\n#ゴールキーパー #GK #キーパー #飛び出し #サッカー #goalkeeper #goalkeepertraining #sweeperkeeper #KEEPIX",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "触り方は状況で変える",
+          "titleEn": "Adapt How You Touch It",
+          "subtitle": "つなぎより、まず危険を消す",
+          "subtitleEn": "Kill the danger before building play"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "時間があるなら",
+          "headingEn": "When You Have Time",
+          "body": "味方が戻っていて時間があるなら、足元で止めて味方につなぐ。\n\n落ち着いてビルドアップの起点になる。",
+          "bodyEn": "If teammates are recovering and you have time, control it at your feet and link up with them.\n\nStay calm and become the start of the build-up."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "危険なとき",
+          "headingEn": "When It's Dangerous",
+          "body": "相手が迫って危険なら、無理につながず足で遠くへクリア。\n\nエリア外は手が使えない。身体を大きく使ってコースを塞ぐ。",
+          "bodyEn": "If an attacker is closing in, don't force a pass—clear it far with your feet.\n\nOutside the box you can't use hands. Make yourself big and block the lane."
+        },
+        {
+          "type": "content",
+          "badge": "3",
+          "heading": "まとめ",
+          "headingEn": "Summary",
+          "body": "準備→先に触れるかで判断→状況で触り方を選ぶ。\n\n飛び出しは度胸ではなく、読みと基準。整理すれば背後は怖くない。",
+          "bodyEn": "Prepare, decide by who touches first, then choose how to play it.\n\nComing out isn't about bravery—it's reading and rules. Organize it and the space behind won't scare you."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "保存して練習に",
+          "titleEn": "Save It and Train",
+          "body": "第1回の準備と基準も合わせてチェックしよう。",
+          "bodyEn": "Pair this with Part 1 on preparation and decision rules."
+        }
+      ]
+    }
+  ]
+}
