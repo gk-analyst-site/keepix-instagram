@@ -1,0 +1,98 @@
+{
+  "articleTitle": "保存版・GK試合前ルーティン — 当日の自分を整える",
+  "totalParts": 2,
+  "parts": [
+    {
+      "part": 1,
+      "caption": "試合は、キックオフ前に半分決まっている。\n\nPart 1では「体を起こす」ウォームアップを紹介。動かす→弾ませる→飛ぶの順番で、いきなり全力ダイブは禁物。\n\nThe match is half-decided before kickoff.\n\nPart 1 covers the warm-up — waking up your body. Move, bounce, then fly; never start with a full-power dive.\n\n保存して毎試合チェックしよう。Save this and check it before every match.\n\n#ゴールキーパー #GK #キーパー #goalkeeper #goalkeepertraining #keepix (Part 1 of 2)",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "試合前ルーティン：体を起こす",
+          "titleEn": "Pre-Match Routine: Wake Up Your Body",
+          "subtitle": "良い試合はキックオフ前に半分決まる",
+          "subtitleEn": "A good match is half-decided before kickoff"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "まず体温を上げる",
+          "headingEn": "Raise Your Body Temperature",
+          "body": "股関節・足首・肩を軽く回し、軽いジョグとステップで神経を目覚めさせる。\n\nいきなり全力ダイブは禁物。",
+          "bodyEn": "Gently rotate your hips, ankles, and shoulders. Wake up your nervous system with a light jog and steps.\n\nNever start with a full-power dive."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "動かす→弾ませる→飛ぶ",
+          "headingEn": "Move, Bounce, Then Fly",
+          "body": "順番を守る。ハンドリングは易しいボールから始め、徐々にスピードと角度を上げる。",
+          "bodyEn": "Follow the order. Start handling with easy balls, then gradually raise the speed and the angle."
+        },
+        {
+          "type": "content",
+          "badge": "3",
+          "heading": "指先を起こす",
+          "headingEn": "Wake Up Your Fingertips",
+          "body": "最後に低い・速いボールで指先を起こしておく。\n\n本番に向けて感覚を整える。",
+          "bodyEn": "Finish with low, fast balls to wake up your fingertips.\n\nSharpen your touch ready for the real thing."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "次は「頭を起こす」",
+          "titleEn": "Next: Wake Up Your Mind",
+          "body": "Part 2でメンタルと直前の整えを解説。フォローして待とう。",
+          "bodyEn": "Part 2 covers the mental side and final prep. Follow so you don't miss it."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "caption": "体の次は頭だ。\n\nPart 2では「頭を起こす」メンタル確認と、直前5分の整え方を紹介。約束事を声に出し、良いセーブをイメージして自信のスイッチを入れる。\n\nAfter the body, the mind.\n\nPart 2 covers mental checks and the final 5 minutes before kickoff. Confirm your set-piece rules out loud and flip the confidence switch.\n\nあなたの試合前の“必ずやること”は？コメントで教えてください。What's your must-do before a match? Tell us in the comments.\n\n#ゴールキーパー #GK #キーパー #goalkeeper #goalkeepermindset #keepix (Part 2 of 2)",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "試合前ルーティン：頭を起こす",
+          "titleEn": "Pre-Match Routine: Wake Up Your Mind",
+          "subtitle": "体の次は頭。迷わないための段取り",
+          "subtitleEn": "After the body, the mind — a plan so you never hesitate"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "ピッチを確かめる",
+          "headingEn": "Check the Pitch",
+          "body": "芝・風・光を自分の足と目で確認。逆光、ぬかるみ、風向きに気づくだけで判断が変わる。",
+          "bodyEn": "Check the grass, wind, and light with your own feet and eyes. Just noticing the glare, mud, and wind direction changes your decisions."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "約束事とイメージ",
+          "headingEn": "Rules and Imagery",
+          "body": "セットプレーの約束事を味方と声に出して確認。\n\n良いセーブのイメージで自信のスイッチを入れる。",
+          "bodyEn": "Confirm your set-piece rules out loud with teammates.\n\nReplay a good save in your mind to flip the confidence switch."
+        },
+        {
+          "type": "content",
+          "badge": "3",
+          "heading": "直前5分の整え",
+          "headingEn": "The Final 5 Minutes",
+          "body": "新しいことはしない時間。水分を一口、手袋を湿らせグリップを作り、呼吸を一度深く。",
+          "bodyEn": "No new things now. A sip of water, dampen your gloves for grip, and take one deep breath."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "いつもの自分で入ろう",
+          "titleEn": "Enter As Your Usual Self",
+          "body": "動かす→頭を起こす→直前に整える。保存して毎試合チェック。",
+          "bodyEn": "Move, wake the mind, then settle. Save this and check it every match."
+        }
+      ]
+    }
+  ]
+}
