@@ -23,7 +23,7 @@ HARD RULES:
 - content.badge: the content slide's index within its carousel as a string: "1", "2", ... starting at 1.
 - cover.kicker: a short uppercase label, e.g. "GK COACHING". cover.title (JP hook) + cover.titleEn (EN hook); cover.subtitle (JP) + cover.subtitleEn (EN), one supporting line each.
 - cta.kicker: "KEEPIX". cta.title (JP) + cta.titleEn (EN) short call to action; cta.body (JP) + cta.bodyEn (EN) one supporting line each.
-- caption: a natural Instagram caption for THAT part — first a Japanese block, then an English block, ending with a few relevant hashtags. State it is Part n of N. <= 2200 characters total.
+- caption: a natural Instagram caption for THAT part — first a Japanese block, then an English block. Right before the hashtags, add ONE short engagement nudge that fits the content, in both languages: either a question inviting comments, a "save for later / 保存して" prompt, or a "tag a keeper / キーパー仲間をタグ" prompt. Keep it natural, not spammy. End with a few relevant hashtags. State it is Part n of N. <= 2200 characters total.
 
 Return ONLY valid minified JSON (no code fences, no prose) matching exactly:
 {"articleTitle":string,"totalParts":number,"parts":[{"part":number,"caption":string,"slides":[{"type":"cover","kicker":string,"title":string,"titleEn":string,"subtitle":string,"subtitleEn":string},{"type":"content","badge":string,"heading":string,"headingEn":string,"body":string,"bodyEn":string},{"type":"cta","kicker":string,"title":string,"titleEn":string,"body":string,"bodyEn":string}]}]}`;
