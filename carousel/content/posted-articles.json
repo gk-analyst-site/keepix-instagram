@@ -77,10 +77,11 @@
       "totalParts": 3,
       "postedParts": [
         1,
-        2
+        2,
+        3
       ],
-      "done": false,
-      "lastPostedAt": "2026-10-26T03:20:14.329Z"
+      "done": true,
+      "lastPostedAt": "2026-10-28T04:06:35.969Z"
     }
   }
 }
