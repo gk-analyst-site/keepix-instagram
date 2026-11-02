@@ -86,10 +86,11 @@
     "2026-10-19-offpitch-habits": {
       "totalParts": 2,
       "postedParts": [
-        1
+        1,
+        2
       ],
-      "done": false,
-      "lastPostedAt": "2026-10-30T04:29:58.089Z"
+      "done": true,
+      "lastPostedAt": "2026-11-02T04:33:33.293Z"
     }
   }
 }
