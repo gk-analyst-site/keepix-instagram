@@ -1,0 +1,98 @@
+{
+  "articleTitle": "GKを支える保護者へ — やってはいけない声かけ・効く声かけ",
+  "totalParts": 2,
+  "parts": [
+    {
+      "part": 1,
+      "caption": "【第1回/全2回】キーパーの子を持つ親は、誰よりもハラハラしている。でも言葉ひとつで子どもの表情は変わります。試合直後にやりがちなNGと、かわりに効く声かけをまとめました。\n\n次の試合、どんな声をかけてあげたいですか？コメントで教えてください。\n\nPart 1 of 2. Parents of keepers worry more than anyone. But one word can change your child's face. Here are the after-match NGs and the words that actually help.\n\nWhat will you say after the next match? Tell us in the comments.\n\n#ゴールキーパー #GK育成 #サッカー保護者 #goalkeeper #KEEPIX",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "GKを支える保護者へ",
+          "titleEn": "For the Parents Behind Every Keeper",
+          "subtitle": "言葉ひとつで子どもの表情は変わる",
+          "subtitleEn": "One word can change your child's face"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "試合直後のNG",
+          "headingEn": "What Not to Say After a Match",
+          "body": "失点直後の「なんで止めなかったの」は一番言ってはいけない。本人が一番わかっている。\n\n結果だけを責める言葉は、ミスを恐れる選手をつくる。",
+          "bodyEn": "\"Why didn't you save that?\" right after a goal is the worst thing to say. They already know best.\n\nBlaming only the result creates a player who fears mistakes."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "ため息も伝わる",
+          "headingEn": "Even a Sigh Is Noticed",
+          "body": "無言のため息も、子どもはちゃんと気づいている。\n\nキーパーの失点は全員に見える。だからこそ言葉に気をつけたい。",
+          "bodyEn": "Even a silent sigh — your child notices it.\n\nA keeper's goal conceded is visible to everyone. That's exactly why words matter."
+        },
+        {
+          "type": "content",
+          "badge": "3",
+          "heading": "かわりに効く声かけ",
+          "headingEn": "Words That Actually Help",
+          "body": "見てほしいのは結果ではなく挑戦。\n\n- あの飛び出し、勇気あったね\n- 最後まで諦めなかったね\n\nプロセスを具体的にほめる。",
+          "bodyEn": "Notice the attempt, not the result.\n\n- That was a brave rush out\n- You never gave up to the end\n\nPraise the process, specifically."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "次回は家での支え方",
+          "titleEn": "Next: Support at Home",
+          "body": "うまくいかなかった日こそ「次が楽しみだね」。次回もお楽しみに。",
+          "bodyEn": "On tough days, say \"I can't wait for the next one.\" Stay tuned for Part 2."
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "caption": "【第2回/全2回】技術の指摘はコーチに任せ、家では安心できる場所に。日常でできるGKキッズの支え方と、長く続けるための視点をまとめました。\n\n同じGKキッズを持つ保護者仲間をタグして届けてください。\n\nPart 2 of 2. Leave technical fixes to the coach; at home, be a safe place. Here's how to support your keeper day to day, and the mindset that keeps them going.\n\nTag a fellow keeper parent so this reaches them.\n\n#ゴールキーパー #GK育成 #サッカー保護者 #goalkeeper #KEEPIX",
+      "slides": [
+        {
+          "type": "cover",
+          "kicker": "GK COACHING",
+          "title": "家での支え方",
+          "titleEn": "How to Support at Home",
+          "subtitle": "親の役割はコーチではなく安心できる場所",
+          "subtitleEn": "Your role isn't coach — it's a safe place"
+        },
+        {
+          "type": "content",
+          "badge": "1",
+          "heading": "家では聞き役に",
+          "headingEn": "At Home, Just Listen",
+          "body": "技術の指摘はコーチに任せる。\n\n家では聞き役に回る。それだけで子どもは安心できる。",
+          "bodyEn": "Leave the technical corrections to the coach.\n\nAt home, be the listener. That alone gives your child peace of mind."
+        },
+        {
+          "type": "content",
+          "badge": "2",
+          "heading": "一緒に楽しむ",
+          "headingEn": "Share the Moments",
+          "body": "道具を一緒に手入れする。動画を一緒に見て「すごいね」と言う。\n\nそれだけで「見てくれている」と感じる。",
+          "bodyEn": "Care for the gear together. Watch clips together and say \"that's amazing.\"\n\nThat's how they feel you're watching."
+        },
+        {
+          "type": "content",
+          "badge": "3",
+          "heading": "比べないこと",
+          "headingEn": "Don't Compare",
+          "body": "他人とも、昨日の弟妹とも比べない。\n\n結果より挑戦をほめる。家では安心を。長く続ける力になる。",
+          "bodyEn": "Don't compare — not to others, not to siblings.\n\nPraise the attempt over the result. Offer safety at home. It builds staying power."
+        },
+        {
+          "type": "cta",
+          "kicker": "KEEPIX",
+          "title": "保護者仲間にシェアを",
+          "titleEn": "Share With Fellow Parents",
+          "body": "同じGKキッズを持つ保護者に、このシリーズを届けてください。",
+          "bodyEn": "Pass this series on to other parents of young keepers."
+        }
+      ]
+    }
+  ]
+}
