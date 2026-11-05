@@ -4,7 +4,7 @@
   "parts": [
     {
       "part": 1,
-      "caption": "【第1回/全2回】KEEPIX「パートナーコーチ制度」を始めます。\n\nKEEPIXは、GKコーチがGKコーチのために作ったツールです。KEEPIX Diaryを選手と一緒に使ってくださる指導者の方へ。自分のチームでは指導環境がまるごと無料に、他のクラブに紹介すれば継続課金の30%を毎月お支払いします。第1期は5名限定です。\n\n詳しくはプロフィールのリンクから。気になるGKコーチ仲間をタグしてください。\n\nPart 1 of 2. Introducing the KEEPIX Partner Coach Program.\n\nBuilt by a GK coach, for GK coaches. For coaches who use KEEPIX Diary with their keepers: your own coaching setup goes free, and when a club you introduce subscribes, you receive 30% of their subscription every month. Founding round: 5 coaches only.\n\nDetails via the link in our bio. Tag a GK coach who should see this.\n\n#ゴールキーパー #GKコーチ #GK育成 #goalkeeper #goalkeepercoach #gkcoach #KEEPIX",
+      "caption": "【第1回/全2回】KEEPIX「パートナーコーチ制度」を始めます。\n\nKEEPIXは、GKコーチがGKコーチのために作ったツールです。KEEPIX Diaryを選手と一緒に使ってくださる指導者の方へ。自分のチームでは指導環境がまるごと無料に、他のクラブに紹介すれば、利用が続くかぎり毎月パートナー報酬をお支払いします（詳しい条件はお問い合わせください）。第1期は5名限定です。\n\n詳しくはプロフィールのリンクから。気になるGKコーチ仲間をタグしてください。\n\nPart 1 of 2. Introducing the KEEPIX Partner Coach Program.\n\nBuilt by a GK coach, for GK coaches. For coaches who use KEEPIX Diary with their keepers: your own coaching setup goes free, and when a club you introduce subscribes, you receive a partner share every month for as long as they stay (ask us for the details). Founding round: 5 coaches only.\n\nDetails via the link in our bio. Tag a GK coach who should see this.\n\n#ゴールキーパー #GKコーチ #GK育成 #goalkeeper #goalkeepercoach #gkcoach #KEEPIX",
       "slides": [
         {
           "type": "cover",
@@ -27,8 +27,8 @@
           "badge": "2",
           "heading": "他クラブに紹介すると",
           "headingEn": "When You Introduce a Club",
-          "body": "紹介したチームの利用料の30%を、利用が続くかぎり毎月お支払いします。",
-          "bodyEn": "You receive 30% of their subscription, every month, for as long as they stay."
+          "body": "パートナー報酬を、利用が続くかぎり毎月。\n詳しい条件はお問い合わせください",
+          "bodyEn": "You receive a partner share every month for as long as they stay. Ask us for the details."
         },
         {
           "type": "content",
