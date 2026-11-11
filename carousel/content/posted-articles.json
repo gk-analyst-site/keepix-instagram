@@ -104,10 +104,11 @@
     "2026-11-05-partner-coach-program": {
       "totalParts": 2,
       "postedParts": [
-        1
+        1,
+        2
       ],
-      "done": false,
-      "lastPostedAt": "2026-11-09T04:45:48.597Z"
+      "done": true,
+      "lastPostedAt": "2026-11-11T04:48:43.095Z"
     }
   }
 }
