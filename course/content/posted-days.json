@@ -1,4 +1,7 @@
 {
-  "postedDays": [],
-  "lastPostedAt": null
+  "postedDays": [
+    1
+  ],
+  "lastPostedAt": "2026-11-27T10:55:48.252Z",
+  "lastDay": 1
 }
