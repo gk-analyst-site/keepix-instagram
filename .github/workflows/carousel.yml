@@ -1,9 +1,11 @@
 name: KEEPIX carousel (Mon/Wed/Fri)
 
 on:
-  schedule:
-    # 00:00 UTC = 09:00 JST, Monday / Wednesday / Friday
-    - cron: "0 0 * * 1,3,5"
+  # Paused during the 100-day daily course (one post per day via course.yml).
+  # To resume the Mon/Wed/Fri carousel, uncomment the schedule below.
+  # schedule:
+  #   # 00:00 UTC = 09:00 JST, Monday / Wednesday / Friday
+  #   - cron: "0 0 * * 1,3,5"
   workflow_dispatch:
     inputs:
       dry_run:

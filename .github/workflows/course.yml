@@ -1,0 +1,57 @@
+name: KEEPIX 100-day GK course (daily)
+
+on:
+  schedule:
+    # 23:00 UTC = 08:00 JST, every day. Posts the next lesson (Day X/100).
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Render the card only, do NOT post to Instagram"
+        type: boolean
+        default: false
+
+# Allow the job to push the generated card + progress back to the repo.
+permissions:
+  contents: write
+
+# Never run two posting jobs at once.
+concurrency:
+  group: keepix-course
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install fonts (Latin + Japanese CJK)
+        run: sudo apt-get update && sudo apt-get install -y fonts-liberation fonts-noto-cjk
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        working-directory: course
+        run: npm ci || npm install
+
+      - name: Configure git
+        run: |
+          git config user.name "keepix-course-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run course poster
+        working-directory: course
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: node src/run.js

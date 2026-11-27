@@ -1,0 +1,97 @@
+{
+  "module": 1,
+  "moduleTitle": "基礎・構え",
+  "moduleTitleEn": "Foundations & Stance",
+  "lessons": [
+    {
+      "day": 1,
+      "title": "すべては構えから",
+      "titleEn": "It all starts with your stance",
+      "body": "良いセーブの多くは、シュートを打たれる前に決まっている。速く動くことより、正しく構えて「準備できている」ことが反応の質を決める。この10日間で、止まる前の“土台”を作ろう。",
+      "bodyEn": "Most good saves are decided before the shot is struck. Being set and ready matters more than moving fast. Over these 10 days, we build the base you stand on.",
+      "point": "反応は、構えの良さで決まる。",
+      "pointEn": "Your reaction is only as good as your stance."
+    },
+    {
+      "day": 2,
+      "title": "足幅と体重の位置",
+      "titleEn": "Stance width & weight",
+      "body": "足は肩幅より少し広く。体重はかかとではなく母指球（指の付け根）に乗せる。かかと重心だと最初の一歩が遅れる。軽くヒザを曲げ、いつでも地面を蹴れる状態をつくる。",
+      "bodyEn": "Feet a little wider than shoulders. Put your weight on the balls of your feet, not the heels — heel-weight delays your first step. Soft knees, ready to push off the ground.",
+      "point": "母指球に体重。かかとに乗らない。",
+      "pointEn": "Weight on the balls of your feet, never the heels."
+    },
+    {
+      "day": 3,
+      "title": "手の位置",
+      "titleEn": "Where your hands go",
+      "body": "手をだらんと下げない。腰の高さで、体の少し前に置く。一番遅れやすいのは低いシュート。手が下にあれば低いボールに出やすく、上のボールにも腕を伸ばせる。",
+      "bodyEn": "Don't let your hands hang. Keep them around hip height, slightly in front of your body. Low shots are the hardest to reach — hands down get you there, and you can still extend upward.",
+      "point": "手は腰の高さ・体の前。下げすぎない。",
+      "pointEn": "Hands at hip height, in front — not hanging low."
+    },
+    {
+      "day": 4,
+      "title": "セットの瞬間",
+      "titleEn": "The set — stop on impact",
+      "body": "一番大事なのがセットだ。相手が蹴る足を振り下ろす直前に、小さくホップして両足を接地させ、動きを止める。歩いている・跳んでいる最中に打たれると、逆を突かれる。",
+      "bodyEn": "The most important moment is the set. Just before the striker swings through, make a tiny hop to plant both feet and stop moving. If you're mid-stride when they shoot, you get beaten the other way.",
+      "point": "相手のインパクトで、自分は止まっている。",
+      "pointEn": "Be still at the instant they strike the ball."
+    },
+    {
+      "day": 5,
+      "title": "小さなステップ",
+      "titleEn": "Small steps",
+      "body": "大股で動くと体が流れ、止まれない。細かいステップで位置を直せば、いつでもセットに入れる。クロスステップは移動用、サイドステップは微調整用。足を止めず、常に“直せる”状態に。",
+      "bodyEn": "Big strides carry your body too far to stop. Small steps let you adjust and still get set. Cross-steps to travel, side-steps to fine-tune. Keep the feet alive so you can always correct.",
+      "point": "細かい足で位置を直し、いつでも止まれる。",
+      "pointEn": "Small feet keep you able to stop and set."
+    },
+    {
+      "day": 6,
+      "title": "ボールを最後まで見る",
+      "titleEn": "Watch the ball in",
+      "body": "目線が切れると手も遅れる。シュートの瞬間だけでなく、最後にキャッチ・パンチする点まで見続ける。足元のこぼれ球、ワンバウンドの変化も、見ていれば対応できる。",
+      "bodyEn": "If your eyes leave the ball, your hands are late. Track it not just at the shot but all the way to the point where you catch or punch. Watching lets you react to a scuff or a bounce.",
+      "point": "手で止める前に、目で最後まで追う。",
+      "pointEn": "Follow it with your eyes before your hands."
+    },
+    {
+      "day": 7,
+      "title": "構えの高さを変える",
+      "titleEn": "Change your height by distance",
+      "body": "遠い位置からのシュートは高めの構えで速く動けるように。近い距離・1対1では低く構え、低いボールと足元に備える。距離に合わせて腰の高さを変えるのが上級者の感覚だ。",
+      "bodyEn": "For long-range shots, stay a touch taller to move quickly. Up close and in 1v1s, get lower to cover low balls and feet. Adjusting your height to the distance is a mark of a smart keeper.",
+      "point": "遠いと高め、近いと低め。",
+      "pointEn": "Taller for far shots, lower for close ones."
+    },
+    {
+      "day": 8,
+      "title": "セーブ後の構え直し",
+      "titleEn": "Reset after the save",
+      "body": "1本止めて終わりではない。こぼれ球やリバウンドが本当の失点になる。セーブしたら素早く立ち上がり、もう一度セットする。弾くときは危険のない方向へ、次に備える前提で弾く。",
+      "bodyEn": "Stopping one shot isn't the end — rebounds are where goals come. After a save, get up fast and set again. When you parry, push the ball to safety so you're ready for what comes next.",
+      "point": "止めたら即、立ってもう一度セット。",
+      "pointEn": "Save, get up, and set again — fast."
+    },
+    {
+      "day": 9,
+      "title": "両手のバランス",
+      "titleEn": "Balance both hands",
+      "body": "利き手だけに頼ると、逆サイドが穴になる。練習では弱い方の手を意識して多く使う。両手が同じように出せると、守れる範囲が一気に広がる。自分の“逆”を知ることが第一歩。",
+      "bodyEn": "Rely only on your strong hand and the other side becomes a hole. In training, deliberately use your weaker hand more. When both hands work alike, your reach grows a lot. Know your weak side first.",
+      "point": "弱い手を鍛えると、守備範囲が広がる。",
+      "pointEn": "Train the weak hand to widen your reach."
+    },
+    {
+      "day": 10,
+      "title": "基礎チェックリスト",
+      "titleEn": "Foundations checklist",
+      "body": "モジュール①のまとめ。①母指球に体重 ②手は腰の高さ ③インパクトでセット ④細かいステップ ⑤最後までボールを見る。試合前にこの5つを思い出すだけで、構えは安定する。保存して見返そう。",
+      "bodyEn": "Module 1 recap: 1) weight on the balls of your feet 2) hands at hip height 3) set on impact 4) small steps 5) watch the ball in. Recall these five before a match and your stance holds up. Save this.",
+      "point": "構えの5原則。試合前に思い出す。",
+      "pointEn": "Five stance basics — review them before kickoff."
+    }
+  ]
+}

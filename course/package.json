@@ -1,0 +1,10 @@
+{
+  "name": "keepix-gk-course",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "KEEPIX 100-day GK course — one lesson card per day",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.60"
+  }
+}
